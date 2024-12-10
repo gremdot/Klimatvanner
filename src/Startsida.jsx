@@ -22,25 +22,33 @@ const Startsida = () => {
 
       {/* Mission-sektionen */}
       <section className="mission">
-        <h2>Klimatvänners' Mission</h2>
+        <h2>Klimatvänners Mission</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut
-          nisl felis. Integer lorem risus, faucibus vel rutrum in, maximus
-          facilisis lorem.
+        Klimatvänner finns för dig som vill göra skillnad – och tro oss, det behövs! 
+        Vi riktar oss till unga som bryr sig om klimatet och vill bidra till en hållbar framtid.
+
+Vår mission är enkel: att inspirera och stötta unga i att ta små, smarta steg som tillsammans 
+gör stor skillnad. Här får du tips, fakta och verktyg för att leva mer klimatsmart, samtidigt som du blir en del av en rörelse som vågar tänka framåt.
+
+Tillsammans skapar vi en grönare framtid. Är du med?
         </p>
         <img
-          src="https://via.placeholder.com/200x100" // Byt ut mot en riktig bild
+          src="./klimatvanner_svart.png" // Byt ut mot en riktig bild
           alt="Mission logo"
         />
       </section>
       <section className="intro">
-        <h2>Välkommen till Klimatvänner</h2>
-        <p>Här kan du lära dig mer om klimatförändringar och hur du kan göra skillnad.</p>
+        <h2></h2>
+        <p></p>
       </section>
 
       {/* Lägg till Quiz här */}
-      <section className="quiz-section">
-        <h2>Testa dina kunskaper</h2>
+      <section className="mission">
+        <h2>Vill du testa dina klimatkunskaper?</h2>
+        <p>Hur mycket koll har du på klimatet och hur vi kan påverka det? 
+          Ta vårt snabba quiz och utmana dig själv! Du får både testa vad du redan 
+          vet och lära dig något nytt på vägen. Kanske blir du förvånad över hur mycket 
+          skillnad små handlingar kan göra!</p>
         <Quiz />
       </section>
       
@@ -73,14 +81,8 @@ const Startsida = () => {
             <a href="#">Läs mer</a>
           </div>
         </div>
-        <button className="btn-primary">Läs mer</button>
+        <button className="btn">Läs mer</button>
       </section>
-
-      {/* Footer */}
-      <footer className="footer">
-        <p>Klimatvänner © Klimatvänners Organisation 2024</p>
-        <p>Lär dig om klimatet - Kontakta oss</p>
-      </footer>
     </div>
   );
 };

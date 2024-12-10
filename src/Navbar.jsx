@@ -11,9 +11,9 @@ const Navbar = () => {
         </li>
         <li><Link to="/">Startsida</Link></li>
         <li><Link to="/klimatnyheter">Klimatnyheter</Link></li>
-        <li><Link to="/lär-dig">Lär Dig</Link></li>
-        <li><Link to="/fakta-om">Fakta om</Link></li>
-        <li><Link to="/kontakta-oss">Kontakta Oss</Link></li>
+        <li><Link to="/fakta-om">Fakta om koldioxidutsläpp</Link></li>
+        <li><Link to="/lär-dig">Var med och påverka!</Link></li>
+        <li><Link to="/kontakta-oss">Kontakta oss</Link></li>
       </ul>
     </nav>
   );

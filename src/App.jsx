@@ -22,6 +22,9 @@ const App = () => {
         <Route path="/fakta-om" element={<FaktaOm />} />
         <Route path="/kontakta-oss" element={<KontaktaOss />} />
       </Routes>
+      
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };

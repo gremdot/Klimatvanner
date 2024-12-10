@@ -1,0 +1,52 @@
+.footer {
+    background-color: #046835; /* Mörkgrön bakgrund */
+    color: white; /* Vit text */
+    padding: 20px 0; /* Utrymme ovanför och under */
+    text-align: center; /* Centrera texten */
+  }
+  
+  .footer-content {
+    display: flex; /* Flexbox för att placera innehållet horisontellt */
+    justify-content: space-around; /* Sprid ut innehållet jämnt */
+    align-items: flex-start; /* Justera innehållet till toppen */
+    flex-wrap: wrap; /* Gör det responsivt på mindre skärmar */
+    max-width: 1200px; /* Begränsa bredden */
+    margin: 0 auto; /* Centrera innehållet horisontellt */
+  }
+  
+  .footer-logo {
+    flex: 1; /* Tillåt loggan att ta upp utrymme */
+  }
+  
+  .footer-logo-img {
+    max-width: 100px; /* Justera storleken på logotypen */
+  }
+  
+  .footer-links, .footer-organization {
+    flex: 1; /* Gör kolumnerna lika stora */
+  }
+  
+  .footer-links h4, .footer-organization h4 {
+    margin-bottom: 10px; /* Utrymme under rubriker */
+    font-size: 1.2rem;
+  }
+  
+  .footer-links ul, .footer-organization ul {
+    list-style: none; /* Ta bort punkterna i listan */
+    padding: 0; /* Ta bort padding */
+  }
+  
+  .footer-links ul li, .footer-organization ul li {
+    margin-bottom: 5px; /* Utrymme mellan länkar */
+  }
+  
+  .footer-links ul li a, .footer-organization ul li a {
+    text-decoration: none; /* Ta bort understrykning */
+    color: white; /* Vit textfärg för länkar */
+    transition: color 0.3s ease; /* Mjuk övergång vid hover */
+  }
+  
+  .footer-links ul li a:hover, .footer-organization ul li a:hover {
+    color: #cce7cc; /* Ljusare grön vid hover */
+  }
+  

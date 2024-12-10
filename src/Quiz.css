@@ -1,0 +1,87 @@
+.quiz {
+    max-width: 600px;
+    margin: 20px auto; /* Centrera quizet */
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #046835; /* Grön kantlinje */
+    border-radius: 10px; /* Rundade hörn */
+    background-color: #e9f5ec; /* Ljusgrön bakgrund */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Mjuk skugga */
+  }
+  
+  .question-card {
+    margin-bottom: 20px;
+  }
+  
+  .question-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #046835; /* Grön textfärg */
+  }
+  
+  .question-card p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333; /* Neutral textfärg */
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .option-btn {
+    padding: 10px 20px;
+    border: 2px solid #046835; /* Grön kantlinje */
+    background-color: #046835; /* Grön bakgrund */
+    color: white; /* Vit textfärg */
+    font-size: 1rem;
+    border-radius: 5px; /* Rundade hörn */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .option-btn:hover {
+    background-color: #035c29; /* Mörkare grön vid hover */
+    transform: scale(1.05); /* Lätt förstoring vid hover */
+  }
+  
+  .option-btn:active {
+    background-color: #02471f; /* Ännu mörkare grön vid klick */
+    transform: scale(1); /* Återställ storlek vid klick */
+  }
+  
+  .result h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #046835; /* Grön färg för rubriken */
+  }
+  
+  .result p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333; /* Neutral textfärg */
+  }
+  
+  .result button {
+    padding: 10px 20px;
+    background-color: #046835; /* Grön bakgrund */
+    color: white; /* Vit textfärg */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .result button:hover {
+    background-color: #035c29; /* Mörkare grön vid hover */
+    transform: scale(1.05); /* Lätt förstoring vid hover */
+  }
+  
+  .result button:active {
+    background-color: #02471f; /* Ännu mörkare grön vid klick */
+    transform: scale(1); /* Återställ storlek vid klick */
+  }
+  

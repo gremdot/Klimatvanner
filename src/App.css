@@ -53,7 +53,7 @@ h3 {
 
 
 /* BUTTONS */
-.btn-primary {
+.btn {
   background-color: #007bff;
   color: white;
   padding: 10px 20px;
@@ -61,43 +61,20 @@ h3 {
   border-radius: 5px;
   cursor: pointer;
 }
-.btn-primary:hover {
+.btn:hover {
   background-color: #0056b3;
 }
-form button {
-  background-color: #007bff;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-form button:hover {
-  background-color: #0056b3;
-}
-.load-more {
+.load {
   display: block;
   margin: 20px auto;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
 }
-.load-more:hover {
-  background-color: #0056b3;
-}
-.search-bar button {
+.search {
   padding: 10px;
-  border: 1px solid #ccc;
-  background-color: #007bff;
-  color: white;
+  background-color: #adadad;
   border-radius: 0 5px 5px 0;
-  cursor: pointer;
 }
-.search-bar button:hover {
-  background-color: #0056b3;
+.search:hover {
+  background-color: #93c741;
 }
 
 
@@ -400,3 +377,41 @@ form .form-group textarea {
   height: 100px;
 }
 
+/*TABELL*/
+.table-section {
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9; /* Ljus bakgrundsfärg */
+  border-radius: 10px; /* Rundade hörn */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Skugga för effekt */
+  text-align: center;
+}
+
+.table-section h2 {
+  color: #046835; /* Grön textfärg för rubriken */
+  margin-bottom: 20px;
+}
+
+.table-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.table-section th,
+.table-section td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.table-section th {
+  background-color: #046835;
+  color: white;
+}
+
+/* centrerar texten på "var med och påverka!" sidan, längst ner, en paragraf...*/
+.centreradtext {
+  text-align: center;
+  padding-bottom: 12px;
+}

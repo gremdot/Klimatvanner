@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css'; // Importera CSS för footer
+import './Footer.css';
 
 const Footer = () => {
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-logo">
           {/* Byt ut mot rätt logotyp */}
-          <img src="path-to-your-logo.png" alt="Logotyp" className="footer-logo-img" />
+          <img src="./klimatvanner_svart.png" alt="klimatvanner_logo" className="footer-logo-img" />
         </div>
         <div className="footer-links">
           <h4>Kontakt</h4>

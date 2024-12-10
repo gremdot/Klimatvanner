@@ -61,7 +61,7 @@ const Klimatnyheter = () => {
         </select>
         <div className="search-bar">
           <input type="text" placeholder="Sök..." />
-          <button>🔍</button>
+          <button className="btn search">🔍</button>
         </div>
       </div>
 
@@ -81,15 +81,9 @@ const Klimatnyheter = () => {
       </div>
 
       {/* Ladda fler-knapp */}
-      <button className="load-more" onClick={loadMore}>
+      <button className="btn load" onClick={loadMore}>
         Ladda fler
       </button>
-
-      {/* Footer */}
-      <footer className="footer">
-        <p>Klimatvänner © Klimatvänners Organisation 2024</p>
-        <p>Lär dig om klimatet - Kontakta oss</p>
-      </footer>
     </div>
   );
 };

@@ -34,16 +34,10 @@ const KontaktaOss = () => {
               <label htmlFor="message">Meddelande*</label>
               <textarea id="message" placeholder="Skriv ditt meddelande här..." required></textarea>
             </div>
-            <button type="submit">Skicka</button>
+            <button className="btn" type="submit">Skicka</button>
           </form>
         </div>
       </div>
-
-      {/* Footer */}
-      <footer className="footer">
-        <p>Klimatvänner © Klimatvänners Organisation 2024</p>
-        <p>Lär dig om klimatet - Kontakta oss</p>
-      </footer>
     </div>
   );
 };

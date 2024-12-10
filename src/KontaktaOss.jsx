@@ -10,12 +10,12 @@ const KontaktaOss = () => {
         {/* Kontaktinformation */}
         <div className="kontakt-info">
           <h2>Kontakt</h2>
-          <p>Näsgatan 1234</p>
-          <p>456 78</p>
+          <p>Näsgatan 123</p>
+          <p>114 56</p>
           <p>Stockholm</p>
           <h2>Support</h2>
           <p>Öppet mellan kl: 10:00 - 16:00</p>
-          <p>+46 8 306789</p>
+          <p>+4673 12131415</p>
         </div>
 
         {/* Kontaktformulär */}

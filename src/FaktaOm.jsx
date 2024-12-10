@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css'; // CSS-filen för styling
+import EmissionsTable from './data/CO2_emissions.json'; 
+import Utsläppstabell from './Utsläppstabell'; // Kontrollera att sökvägen är korrekt
+
 
 const FaktaOm = () => {
   return (
@@ -44,6 +47,7 @@ const FaktaOm = () => {
             Mauris malesuada tempus nisl et aliquam. Interdum et malesuada fames
             ac ante ipsum primis in faucibus. Duis rhoncus tempus efficitur.
           </p>
+         
         </div>
 
         {/* Diagram 3 */}
@@ -59,11 +63,11 @@ const FaktaOm = () => {
         </div>
       </div>
 
-      {/* Footer */}
-      <footer className="footer">
-        <p>Klimatvänner © Klimatvänners Organisation 2024</p>
-        <p>Lär dig om klimatet - Kontakta oss</p>
-      </footer>
+      {/* Tabell-sektion */}
+      <section className="table-section">
+        <h2>Globala CO2 Utsläpp</h2>
+        <Utsläppstabell /> {/* Här visas tabellen */}
+      </section>
     </div>
   );
 };

@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav class="navigation">
       <ul>
         <li>
-        <img class="logga" src="https://cdn.discordapp.com/attachments/1305912001465417844/1314532859083489332/klimatvanner_svart.png?ex=67581220&is=6756c0a0&hm=7b955977fc77ae6bf1c3b7aae76282597e6ef4c820d2ce0fa95db4d6da5e3e0b&" alt="klimatvänner" />
+        <img class="logga" src="./klimatvanner_svart.png" alt="klimatvänner_logo" />
         </li>
         <li><Link to="/">Startsida</Link></li>
         <li><Link to="/klimatnyheter">Klimatnyheter</Link></li>

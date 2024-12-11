@@ -22,7 +22,7 @@ const Startsida = () => {
 
       {/* Mission-sektionen */}
       <section className="mission">
-        <h2>Klimatvänners Mission</h2>
+        <h2>Välkommen till klimatvänner</h2>
         <p>
         Klimatvänner finns för dig som vill göra skillnad – och tro oss, det behövs! 
         Vi riktar oss till unga som bryr sig om klimatet och vill bidra till en hållbar framtid.

@@ -46,7 +46,7 @@ const LärDig = () => {
           </div>
         </div>
         <div className="topic">
-          <img src="./lax.jpg" alt="Diet" />
+          <img src="./lax.jpg" alt="matsvinn" />
           <div>
             <h3>Minska matsvinnet</h3>
             <p>

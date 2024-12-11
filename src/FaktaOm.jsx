@@ -29,38 +29,26 @@ const FaktaOm = () => {
       <div className="stats">
         {/* CO2-utsläpp */}
         <section >
-          <h2>Globala CO2-utsläpp</h2>
+          <Utsläppstabell />
           <p>
             Här ser du hur utsläppen av koldioxid har ökat sedan industrialiseringen och varför det är en nyckelfaktor i klimatförändringarna.
           </p>
-          <Utsläppstabell />
-        </section>
-
-        {/* Temperaturförändringar */}
-        <section>
-          <h2>Globala temperaturförändringar</h2>
-          <p>
-            Den här grafen visar hur den globala temperaturen har förändrats över tid och jämför olika källor för data.
-          </p>
-          <TemperatureChart />
         </section>
 
         {/* Glaciärstorlek */}
         <section>
-          <h2>Glaciärstorlekar</h2>
+         <GlacierChart />
           <p>
             Grafen visar hur glaciärernas genomsnittliga storlek har minskat de senaste decennierna på grund av den globala uppvärmningen.
           </p>
-          <GlacierChart />
         </section>
 
         {/* Havsnivåhöjningar */}
         <section>
-          <h2>Havsnivåhöjningar</h2>
+        <SeaLevelChart />
           <p>
             Visualisering av hur havsnivån har stigit globalt över tid och vilka konsekvenser detta har.
           </p>
-          <SeaLevelChart />
         </section>
       </div>
     </div>

@@ -1,6 +1,4 @@
 import React from 'react';
-import { Line } from 'react-chartjs-2';
-import temperatureData from './data/Global_temp.json';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -11,7 +9,10 @@ import {
   Tooltip,
   Legend,
 } from 'chart.js';
+import { Line } from 'react-chartjs-2';
+import temperatureData from './data/Global_temp.json';
 
+// Registrera ChartJS-komponenter
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -23,35 +24,56 @@ ChartJS.register(
 );
 
 const TemperatureChart = () => {
+  // Hämta data från JSON
+  const years = temperatureData.map((item) => item.Year);
+  const gcagTemps = temperatureData.map((item) => item.GCAG);
+  const gistempTemps = temperatureData.map((item) => item.GISTEMP);
+
+  // Konfigurera data för grafen
   const data = {
-    labels: temperatureData.map((item) => item.Year),
+    labels: years,
     datasets: [
       {
         label: 'GCAG (°C)',
-        data: temperatureData.map((item) => item.GCAG),
-        borderColor: '#ff8800',
-        backgroundColor: 'rgba(255, 136, 0, 0.2)',
-        tension: 0.4,
+        data: gcagTemps,
+        borderColor: 'rgba(255, 99, 132, 1)', // Röd linje
+        backgroundColor: 'rgba(255, 99, 132, 0.2)', // Röd fyllnad
+        fill: true,
       },
       {
         label: 'GISTEMP (°C)',
-        data: temperatureData.map((item) => item.GISTEMP),
-        borderColor: '#ffcc00',
-        backgroundColor: 'rgba(255, 204, 0, 0.2)',
-        tension: 0.4,
+        data: gistempTemps,
+        borderColor: 'rgba(54, 162, 235, 1)', // Blå linje
+        backgroundColor: 'rgba(54, 162, 235, 0.2)', // Blå fyllnad
+        fill: true,
       },
     ],
   };
 
+  // Alternativ för grafens utseende
   const options = {
     responsive: true,
     plugins: {
       legend: {
         position: 'top',
       },
-      title: {
-        display: true,
-        text: 'Globala Temperaturförändringar över Tid',
+      tooltip: {
+        mode: 'index',
+        intersect: false,
+      },
+    },
+    scales: {
+      x: {
+        title: {
+          display: true,
+          text: 'År',
+        },
+      },
+      y: {
+        title: {
+          display: true,
+          text: 'Temperaturförändring (°C)',
+        },
       },
     },
   };

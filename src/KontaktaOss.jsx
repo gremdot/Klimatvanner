@@ -3,11 +3,22 @@ import './App.css'; // CSS-filen för styling
 
 const KontaktaOss = () => {
   return (
-    <div className="kontakta-oss">
-      <h1>Kontakta Oss</h1>
-      <p class="centreradtext">Har du frågor, idéer eller tankar så är du varmt välkommen att höra av dig till oss på Klimatvänner.
-        <br/> Skicka gärna ett meddelande till oss via mejl formuläret - vi hjälper dig gärna! </p>
-     
+    <div className="startsida">
+    {/* Hero-sektionen */}
+    <header className="hero">
+    <div className="overlay"></div>
+      <img
+                src="https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" // Byt ut mot din bild-URL
+        alt="Hero"
+        className="hero-image"
+      />
+      <div className="hero-text">
+        <h1>Kontakta oss</h1>
+        <p>Har du frågor, idéer eller tankar så är du varmt välkommen att höra av dig till oss på Klimatvänner.
+        Skicka gärna ett meddelande till oss via mejl formuläret - vi hjälper dig gärna!</p>
+      </div>
+    </header>
+
       <div className="kontakt-container">
         {/* Kontaktinformation */}
         <div className="kontakt-info">

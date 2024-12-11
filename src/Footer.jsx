@@ -16,14 +16,14 @@ const Footer = () => {
             <h4>Klimatet</h4>
             <ul>
               <li><a href="/Klimatnyheter">Klimatnyheter</a></li>
-              <li><a href="/FaktaOm">Fakta om koldioxidutsläpp</a></li>
-              <li><a href="/LärDig">Lär dig om klimatet</a></li>
+              <li><a href="/Fakta-om">Fakta om koldioxidutsläpp</a></li>
+              <li><a href="/Lär-dig">Lär dig om klimatet</a></li>
               </ul>
             </div>
             <div className="container">
             <h4>Organisation</h4>
             <ul>
-              <li><a href="/KontaktaOss">Kontakta Oss</a></li>
+              <li><a href="/Kontakta-oss">Kontakta Oss</a></li>
               <li className="copyright">©2024 Klimatvänner. All rights reserved.</li>
               </ul>
             </div>

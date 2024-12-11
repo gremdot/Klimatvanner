@@ -3,22 +3,29 @@ import './App.css';
 
 const LärDig = () => {
   return (
-    <div className="lär-dig">
-      <h1></h1>
+          <div className="startsida">
+    {/* Hero-sektionen */}
+    <header className="hero">
+    <div className="overlay"></div>
+      <img
+                src="https://images.pexels.com/photos/802221/pexels-photo-802221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" // Byt ut mot din bild-URL
+        alt="Hero"
+        className="hero-image"
+      />
+      <div className="hero-text">
+        <h1>Rädda planeten - var med och gör skillnad!</h1>
+        <p> Vår planet mår dåligt och behöver din hjälp! Det kan kännas hopplöst att läsa om 
+            översvämmade städer och utrotningshotade djur, men du kan faktiskt göra skillnad. 
+            Istället för att stå vid sidan och titta på, kan du ta små steg som gör stor påverkan. 
+            Panta den där energidrycksburken eller ta hand om resterna från gårdagens middag – valet är ditt. 
+            Glöm inte att det är de små handlingarna som tillsammans skapar stora förändringar!</p>
+      </div>
+    </header>
 
       {/* Befintligt innehåll */}
       <div className="topics">
         <div className="topic">
-          <div>
-            <h2 class="centreradtext">Rädda planeten - var med och gör skillnad!</h2>
-            <p class="centreradtext">
-            Vår planet mår dåligt och behöver din hjälp! Det kan kännas hopplöst att läsa om 
-            översvämmade städer och utrotningshotade djur, men du kan faktiskt göra skillnad. 
-            Istället för att stå vid sidan och titta på, kan du ta små steg som gör stor påverkan. 
-            Panta den där energidrycksburken eller ta hand om resterna från gårdagens middag – valet är ditt. 
-            Glöm inte att det är de små handlingarna som tillsammans skapar stora förändringar!
-            </p>
-          </div>
+
 
         </div>
         <div className="topic">

@@ -3,27 +3,32 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="footer-content">
-        <div className="footer-logo">
-          {/* Byt ut mot rätt logotyp */}
-          <img src="./klimatvanner_svart.png" alt="klimatvanner_logo" className="footer-logo-img" />
-        </div>
-        <div className="footer-links">
-          <h4>Kontakt</h4>
-          <ul>
-            <li><a href="/klimatnyheter">Klimatnyheter</a></li>
-            <li><a href="/fakta-om">Fakta om koldioxidutsläpp</a></li>
-            <li><a href="/lär-dig">Lär dig om klimatet</a></li>
-          </ul>
-        </div>
-        <div className="footer-organization">
-          <h4>Organisation</h4>
-          <ul>
-            <li><a href="/kontakta-oss">Kontakta Oss</a></li>
-            <li>© Klimatvänner 2024</li>
-          </ul>
-        </div>
+    <footer>
+      <div className="footer">
+        <section>
+        <div className="container">
+          <div className="footer-logo">
+            <img src="./klimatvanner_svart.png" alt="logo"/>
+          </div>
+          </div>
+          <div className="footer-links">
+            <div className="container">
+            <h4>Klimatet</h4>
+            <ul>
+              <li><a href="/Klimatnyheter">Klimatnyheter</a></li>
+              <li><a href="/FaktaOm">Fakta om koldioxidutsläpp</a></li>
+              <li><a href="/LärDig">Lär dig om klimatet</a></li>
+              </ul>
+            </div>
+            <div className="container">
+            <h4>Organisation</h4>
+            <ul>
+              <li><a href="/KontaktaOss">Kontakta Oss</a></li>
+              <li className="copyright">©2024 Klimatvänner. All rights reserved.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
       </div>
     </footer>
   );

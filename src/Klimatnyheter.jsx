@@ -44,7 +44,7 @@ const Klimatnyheter = () => {
   };
 
   return (
-    <div className="klimatnyheter-page">
+    <div className="lär-dig">
       {/* Filter och sök */}
       <div className="filter-section">
         <select>
@@ -82,7 +82,7 @@ const Klimatnyheter = () => {
 
       {/* Ladda fler-knapp */}
       <button className="btn load" onClick={loadMore}>
-        Ladda fler
+        Ladda fler nyheter
       </button>
     </div>
   );

@@ -83,7 +83,8 @@ h3 {
 /* FILTERS */
 .filter-section {
   display: flex;
-  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 12px;
   align-items: center;
   margin-bottom: 20px;
 }
@@ -91,6 +92,7 @@ h3 {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  margin: 7px;
 }
 
 

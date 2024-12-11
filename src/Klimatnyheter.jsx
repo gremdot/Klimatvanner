@@ -9,7 +9,7 @@ const Klimatnyheter = () => {
       date: '12 December 2024',
       description:
         'Varje år inträffar över 40 000 vegetationsbränder i Sverige. Läs om hur man kan minska riskerna.',
-      image: 'https://via.placeholder.com/150x100',
+      image: "./forest_smoke.jpeg", 
     },
     {
       id: 2,

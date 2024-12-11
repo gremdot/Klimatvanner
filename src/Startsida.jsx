@@ -58,7 +58,7 @@ Tillsammans skapar vi en grönare framtid. Är du med?
         <div className="nyheter">
           <div className="nyhet">
             <img
-              src="https://via.placeholder.com/150x100"
+              src="./forest_smoke.jpeg"
               alt="Skogsbränder"
             />
             <h3>Skogsbränder i Norden</h3>

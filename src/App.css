@@ -54,15 +54,16 @@ h3 {
 
 /* BUTTONS */
 .btn {
-  background-color: #007bff;
+  background-color:#046835;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin: 20px;
 }
 .btn:hover {
-  background-color: #0056b3;
+  background-color:  #93c741;
 }
 .load {
   display: block;
@@ -216,7 +217,7 @@ h3 {
   font-size: 0.9rem;
 }
 .nyhet a {
-  color: #007bff;
+  color: #93c741;
   text-decoration: none;
 }
 .nyhet a:hover {
@@ -244,7 +245,7 @@ h3 {
   margin: 5px 0;
 }
 .news-content a {
-  color: #007bff;
+  color: #93c741;
   text-decoration: none;
 }
 .news-content a:hover {

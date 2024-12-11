@@ -22,7 +22,7 @@ const LärDig = () => {
 
         </div>
         <div className="topic">
-          <img src="https://via.placeholder.com/150x100" alt="Återvinning" />
+          <img src="./sortering.jpg" alt="Återvinning" />
           <div>
             <h3>Återvinning och pant</h3>
             <p>
@@ -34,7 +34,7 @@ const LärDig = () => {
           </div>
         </div>
         <div className="topic">
-          <img src="https://via.placeholder.com/150x100" alt="handla miljövänligt" />
+          <img src="./tvättlina.jpg" alt="handla miljövänligt" />
           <div>
             <h3>Handla miljövänligt</h3>
             <p>
@@ -46,7 +46,7 @@ const LärDig = () => {
           </div>
         </div>
         <div className="topic">
-          <img src="https://via.placeholder.com/150x100" alt="Diet" />
+          <img src="./lax.jpg" alt="Diet" />
           <div>
             <h3>Minska matsvinnet</h3>
             <p>

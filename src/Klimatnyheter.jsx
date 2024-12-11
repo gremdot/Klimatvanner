@@ -17,7 +17,7 @@ const Klimatnyheter = () => {
       date: '10 November 2024',
       description:
         'Stora översvämningar har drabbat Spanien. Valencia är hårt drabbat. Läs mer om hjälpinsatser.',
-      image: 'https://via.placeholder.com/150x100',
+      image: './översvämningar.jpg',
     },
     {
       id: 3,
@@ -25,7 +25,7 @@ const Klimatnyheter = () => {
       date: '8 November 2024',
       description:
         'Endast 1 864 vilda pandor lever kvar i naturen. Läs mer om utrotningshotade arter.',
-      image: 'https://via.placeholder.com/150x100',
+      image: './panda.webp',
     },
   ]);
 

@@ -70,7 +70,7 @@ Tillsammans skapar vi en grönare framtid. Är du med?
           </div>
           <div className="nyhet">
             <img
-              src="https://via.placeholder.com/150x100"
+              src="./översvämningar.jpg"
               alt="Översvämningar"
             />
             <h3>Översvämningar i Spanien</h3>

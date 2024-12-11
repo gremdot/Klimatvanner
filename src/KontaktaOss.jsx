@@ -5,7 +5,9 @@ const KontaktaOss = () => {
   return (
     <div className="kontakta-oss">
       <h1>Kontakta Oss</h1>
-
+      <p class="centreradtext">Har du frågor, idéer eller tankar så är du varmt välkommen att höra av dig till oss på Klimatvänner.
+        <br/> Skicka gärna ett meddelande till oss via mejl formuläret - vi hjälper dig gärna! </p>
+     
       <div className="kontakt-container">
         {/* Kontaktinformation */}
         <div className="kontakt-info">

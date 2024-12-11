@@ -1,42 +1,76 @@
 import React from 'react';
-import emissionsData from './data/CO2_emissions.json';
+import { Line } from 'react-chartjs-2';
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend,
+} from 'chart.js';
+import emissionsData from './data/CO2_emissions.json'; // Flyttad hit
+
+// Registrera komponenter
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend
+);
 
 const Utsläppstabell = () => {
-   
-    return (
-      <div>
-        <h2>Globala CO2 Utsläpp</h2>
-        <table border="1">
-          <thead>
-            <tr>
-              <th>År</th>
-              <th>Totalt</th>
-              <th>Cement</th>
-              <th>Gas Fackling</th>
-              <th>Gas Bränsle</th>
-              <th>Flytande Bränsle</th>
-              <th>Fast Bränsle</th>
-              <th>Per Capita</th>
-            </tr>
-          </thead>
-          <tbody>
-            {emissionsData.slice(0, 10).map((item, index) => (
-              <tr key={index}>
-                <td>{item.Year}</td>
-                <td>{item.Total}</td>
-                <td>{item.Cement}</td>
-                <td>{item["Gas Flaring"]}</td>
-                <td>{item["Gas Fuel"]}</td>
-                <td>{item["Liquid Fuel"]}</td>
-                <td>{item["Solid Fuel"]}</td>
-                <td>{item["Per Capita"]}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    );
+  // Förbered data för diagrammet
+  const data = {
+    labels: emissionsData.map((item) => item.Year),
+    datasets: [
+      {
+        label: 'Totala CO2-utsläpp (miljoner ton)',
+        data: emissionsData.map((item) => item.Total),
+        borderColor: '#046835',
+        backgroundColor: 'rgba(4, 104, 53, 0.2)',
+        tension: 0.4,
+      },
+    ],
   };
-  
-  export default Utsläppstabell;
-  
+
+  const options = {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: 'top',
+      },
+      title: {
+        display: true,
+        text: 'Globala CO2-utsläpp över tid',
+      },
+    },
+    scales: {
+      x: {
+        title: {
+          display: true,
+          text: 'År',
+        },
+      },
+      y: {
+        title: {
+          display: true,
+          text: 'CO2-utsläpp (miljoner ton)',
+        },
+      },
+    },
+  };
+
+  return (
+    <div>
+      <h2>CO2-utsläpp</h2>
+      <Line data={data} options={options} />
+    </div>
+  );
+};
+
+export default Utsläppstabell;

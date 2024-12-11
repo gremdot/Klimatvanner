@@ -8,6 +8,8 @@ import SeaLevelChart from './SeaLevelChart'; // För havsnivåhöjningar
 
 const FaktaOm = () => {
   return (
+
+
     <div className="fakta-om">
       {/* Hero-sektionen */}
       <header className="hero">
@@ -26,7 +28,7 @@ const FaktaOm = () => {
       {/* Innehåll */}
       <div className="stats">
         {/* CO2-utsläpp */}
-        <section>
+        <section >
           <h2>Globala CO2-utsläpp</h2>
           <p>
             Här ser du hur utsläppen av koldioxid har ökat sedan industrialiseringen och varför det är en nyckelfaktor i klimatförändringarna.

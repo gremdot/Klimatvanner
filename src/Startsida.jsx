@@ -78,10 +78,10 @@ Tillsammans skapar vi en grönare framtid. Är du med?
               Spanien kämpar mot stora översvämningar. Valencia är hårt drabbat.
               Läs om lösningar och hjälpinsatser.
             </p>
-            <a href="#">Läs mer</a>
+            <a href="#"> Läs mer</a>
           </div>
         </div>
-        <button className="btn">Läs mer</button>
+        <button className="btn">Klicka här för att läsa fler klimatnyheter</button>
       </section>
     </div>
   );

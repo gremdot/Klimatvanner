@@ -23,7 +23,7 @@ const LärDig = () => {
     </header>
 
       {/* Befintligt innehåll */}
-      <div className="topics">
+      <div className="lär-dig">
         <div className="topic">
 
 

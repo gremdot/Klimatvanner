@@ -2,6 +2,11 @@ import React from 'react';
 import './App.css';
 
 const LärDig = () => {
+  /*Funktionen LärDig renderar en header, där en bild visas, med tillhörande text (h1 och p).
+  Dessa stylas med hjälp av olika css-klasser (overlay: gör bilden mörkare, hero: centrerar text
+  och gör att bilden har 100% width, hero-text: placerar texten ovanpå bilden, hero-image: bestämmer 
+  höjden på bilden) */ 
+  
   return (
           <div>
     {/* Hero-sektionen */}
@@ -21,7 +26,10 @@ const LärDig = () => {
       </div>
     </header>
 
-      {/* Befintligt innehåll */}
+      {/* Nedan följer 3 ämnen om hur ungdomarna kan påverka. Ett sådant stycke innehåller
+      en bild, en paragraf med text och en h3 rubrik. Klassen lär-dig omfamnar alla textstycken 
+      och gör att de får whitespace runtomkring sig efter som klassen har width: 1200px. Även topic 
+      används i alla textstycken som justerar avståndet mellan stycken samt deras position*/}
       <div className="lär-dig">
         <div className="topic">
 
@@ -65,7 +73,14 @@ const LärDig = () => {
         </div>
       </div>
 
-      {/* Befintligt innehåll - länkar */}
+{/* hr linje, grön. Gör så att det blir en avdelning mellan de två avsnitten. 
+Har en klass som heter hr */}
+<hr class="hr"/>
+
+      {/* Nedan visas en sektion med texter (h2 och p) om vart man kan läsa vidare om klimatet. 
+      Även länkar till andra webbplatser finns med
+      klassen centreradtext centrerar texten i paragrafen, learn-more fixar färgen på länkarna,
+      att dem är centrerade osv. */}
       <section className="learn-more">
         <h2>Vill du lära dig mer om klimatet och hur du kan påverka? </h2>
         <p class="centreradtext">
@@ -85,4 +100,5 @@ const LärDig = () => {
   );
 };
 
+/* den sista }; knyter ihop funktionen och export default exporterar komponenten LärDig */
 export default LärDig;

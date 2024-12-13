@@ -3,7 +3,7 @@ import './App.css';
 
 const LärDig = () => {
   return (
-          <div className="startsida">
+          <div>
     {/* Hero-sektionen */}
     <header className="hero">
     <div className="overlay"></div>

@@ -31,7 +31,11 @@ const FaktaOm = () => {
         <section >
           <Utsläppstabell />
           <p>
-            Här ser du hur utsläppen av koldioxid har ökat sedan industrialiseringen och varför det är en nyckelfaktor i klimatförändringarna.
+          Koldioxid, eller CO₂, är en gas som bildas när vi använder fossila bränslen som kol, olja och gas för att få energi. Till exempel när vi kör bil, flyger eller producerar el i fabriker. 
+            Det som gör CO₂ så viktigt att prata om är att det är en av de största orsakerna till den globala uppvärmningen. 
+            Diagrammet visar hur mycket koldioxid människor har släppt ut under de senaste åren. 
+            Ju mer vi släpper ut, desto varmare blir jorden, vilket leder till farliga konsekvenser som smältande isar, höjda havsnivåer och fler extrema väderhändelser.
+            Vi kan minska utsläppen genom att använda förnybar energi som sol- och vindkraft, åka kollektivt och minska vårt användande av plast.
           </p>
         </section>
 
@@ -39,7 +43,11 @@ const FaktaOm = () => {
       <section >
          <GlacierChart />
           <p>
-            Grafen visar hur glaciärernas genomsnittliga storlek har minskat de senaste decennierna på grund av den globala uppvärmningen.
+          Glaciärer är enorma ismassor som finns i bergskedjor och vid polerna. De fungerar som naturens kylskåp eftersom de hjälper till att hålla jorden sval. 
+            Men när temperaturen på jorden ökar, börjar glaciärerna smälta. Diagrammet visar hur glaciärernas storlek har minskat drastiskt under de senaste decennierna. 
+            När glaciärerna smälter, rinner isvattnet ut i havet, vilket gör att havsnivån stiger. 
+            Detta påverkar både djur och människor. Djur som isbjörnar och sälar förlorar sina livsmiljöer, och människor som bor nära kusterna riskerar att få sina hem översvämmade.
+            För att stoppa detta behöver vi minska våra utsläpp och skydda våra isar innan det är för sent.
           </p>
         </section>
 
@@ -47,7 +55,11 @@ const FaktaOm = () => {
         <section >
         <SeaLevelChart />
           <p>
-            Visualisering av hur havsnivån har stigit globalt över tid och vilka konsekvenser detta har.
+          Havsnivån stiger när isarna smälter och när havsvattnet värms upp, eftersom varmt vatten tar mer plats än kallt. 
+            Diagrammet visar hur havsnivån har stigit under de senaste åren och hur den fortsätter att stiga om vi inte gör något åt det. 
+            När havsnivån höjs kan det orsaka stora problem. Till exempel kan städer och byar nära havet översvämmas, vilket gör att människor måste flytta. 
+            Även ekosystem som mangroveskogar och korallrev förstörs, vilket påverkar både djur och människor som är beroende av dessa miljöer. 
+            Vi kan hjälpa till att bromsa havsnivåhöjningarna genom att minska våra utsläpp, skydda kustområden och använda naturbaserade lösningar som att återplantera mangroveskogar.
           </p>
         </section>
       </div>

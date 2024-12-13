@@ -7,19 +7,18 @@ const KontaktaOss = () => {
     {/* Hero-sektionen */}
     <header className="hero">
     <div className="overlay"></div>
-      <img
-                src="https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" // Byt ut mot din bild-URL
-        alt="Hero"
-        className="hero-image"
-      />
+      <img src="./växande_växt.png" alt="header image of growing plant" className="hero-image"/>
       <div className="hero-text">
         <h1>Kontakta oss</h1>
         <p>Har du frågor, idéer eller tankar så är du varmt välkommen att höra av dig till oss på Klimatvänner.
         Skicka gärna ett meddelande till oss via mejl formuläret - vi hjälper dig gärna!</p>
       </div>
+      {/*En <header> med klass "hero" som består av <img>, <h1> och <p>. Detta mönster följs på var sida förutom /klimatnyheter.*/}
     </header>
 
+      
       <div className="kontakt-container">
+
         {/* Kontaktinformation */}
         <div className="kontakt-info">
           <h2>Kontakt</h2>
@@ -30,6 +29,7 @@ const KontaktaOss = () => {
           <p>Öppet mellan kl: 10:00 - 16:00</p>
           <p>+4673 12131415</p>
         </div>
+        {/*En <div> med klass "kontakt-info". Den består av två <h2> och flera <p> som anger kontaktinformation till användare.*/}
 
         {/* Kontaktformulär */}
         <div className="kontakt-form">
@@ -49,6 +49,7 @@ const KontaktaOss = () => {
             </div>
             <button className="btn" type="submit">Skicka</button>
           </form>
+          {/*Form av ett kontakt formulär som består av en <form> med en huvud <div> med klass "kontakt-form". I huvud <div> ligger det tre yttligare <div> med klass "form-group". Dessa divs uppgör tre fält med <input> type text, email och message. Fälten är alla så att användare inte ska kunna submit utan alla fält ifyllda. Fälten har även placeholder texter som beskriver innehållet som behövs. Var <input> har en <label> som också förtydligör vilket fält som är till för vad i formuläret.*/}
         </div>
       </div>
     </div>

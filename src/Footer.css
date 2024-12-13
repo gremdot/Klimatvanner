@@ -5,6 +5,11 @@ footer {
   text-decoration: none;
 }
 
+footer h4 {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
 footer a {
   color: white;
   transition: color 0.3s ease;
@@ -38,19 +43,15 @@ footer section {
   max-height: 90px;
   padding-left: 1rem;
   padding-top: 2rem;
+  cursor: pointer;
 }
 
-.container {
+.footer-container {
   width: 300px;
   margin: 1rem;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-}
-
-footer h4 {
-  margin-bottom: 20px;
-  margin-top: 10px;
 }
 
 .copyright {

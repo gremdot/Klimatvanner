@@ -24,7 +24,7 @@ ChartJS.register(
 
 const SeaLevelChart = () => {
   const data = {
-    labels: seaLevelData.map((item) => item.Time),
+    labels: seaLevelData.map((item) => item.Time.split('-')[0]), // Extrahera bara året
     datasets: [
       {
         label: 'Havsnivåhöjning (mm)',
@@ -45,6 +45,20 @@ const SeaLevelChart = () => {
       title: {
         display: true,
         text: 'Havsnivåhöjningar över Tid',
+      },
+    },
+    scales: {
+      x: {
+        title: {
+          display: true,
+          text: 'År',
+        },
+      },
+      y: {
+        title: {
+          display: true,
+          text: 'Havsnivåhöjning (mm)',
+        },
       },
     },
   };

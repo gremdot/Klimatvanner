@@ -311,6 +311,7 @@ h3 {
   line-height: 1.4;
 }
 
+/*gör linjen på lärdig.jsx grön + bestämmer dess storlek*/
 .hr {
   background-color: #046835;
   margin-right: 70px;
@@ -319,6 +320,11 @@ h3 {
   height: 3px;
 }
 
+/* centrerar texten på "var med och påverka!" sidan, längst ner, en paragraf...*/
+.centreradtext {
+  text-align: center;
+  padding-bottom: 12px;
+}
 
 /* LÄR DIG MER */
 .learn-more {
@@ -330,6 +336,7 @@ h3 {
 }
 .learn-more ul {
   text-align: center;
+  padding-bottom: 40px;
 }
 .learn-more li {
   margin: 10px 0;
@@ -393,6 +400,11 @@ form .form-group textarea {
   height: 100px;
 }
 
+.support {
+  margin-top: 40px;
+  margin-bottom:40px;
+}
+
 /*TABELL*/
 .table-section {
   margin: 40px auto;
@@ -426,8 +438,3 @@ form .form-group textarea {
   color: white;
 }
 
-/* centrerar texten på "var med och påverka!" sidan, längst ner, en paragraf...*/
-.centreradtext {
-  text-align: center;
-  padding-bottom: 12px;
-}

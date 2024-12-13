@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css'; // CSS-filen för styling
-import Quiz from './Quiz'; // Kontrollera att sökvägen till Quiz-komponenten är korrekt
+import Quiz from './Quiz'; // sökvägen till Quiz-komponenten 
 import { Link } from 'react-router-dom';
 
 const Startsida = () => {
@@ -64,7 +64,7 @@ const Startsida = () => {
         <img src="./klimatvanner_svart.png" alt="Mission logo" />
       </section>
 
-      {/* Lägg till Quiz här */}
+      {/* Quiz */}
       <section className="mission">
         <h2>Vill du testa dina klimatkunskaper?</h2>
         <p>

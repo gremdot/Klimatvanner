@@ -21,7 +21,9 @@ const App = () => {
       {/* Navigationsfält som visas högst upp på alla sidor */}
       <Navbar />
 
-      {/* I Routes så bestäms det vilken sida (komponent) som ska visas beroende på vilken url användaren har i webbläsaren. */}
+      {/* I Routes så bestäms det vilken sida (komponent) som ska visas beroende på vilken url användaren har i webbläsaren. Det gör att när man klickar på de olika
+          ettiketterna i navigationen så kommer man till den sidan i applikationen.
+       */}
       <Routes>
         <Route path="/" element={<Startsida />} />
         <Route path="/klimatnyheter" element={<Klimatnyheter />} />

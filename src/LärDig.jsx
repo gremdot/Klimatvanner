@@ -13,12 +13,11 @@ const LärDig = () => {
         className="hero-image"
       />
       <div className="hero-text">
-        <h1>Rädda planeten - var med och gör skillnad!</h1>
+        <h1>Rädda planeten - <br/> var med och gör skillnad!</h1>
         <p> Vår planet mår dåligt och behöver din hjälp! Det kan kännas hopplöst att läsa om 
             översvämmade städer och utrotningshotade djur, men du kan faktiskt göra skillnad. 
-            Istället för att stå vid sidan och titta på, kan du ta små steg som gör stor påverkan. 
-            Panta den där energidrycksburken eller ta hand om resterna från gårdagens middag – valet är ditt. 
-            Glöm inte att det är de små handlingarna som tillsammans skapar stora förändringar!</p>
+            Läs mer om hur du kan hjälpa planeten redan idag! 
+        </p>
       </div>
     </header>
 

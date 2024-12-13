@@ -10,7 +10,7 @@ const FaktaOm = () => {
   return (
 
 
-    <div className="fakta-om">
+    <div>
       {/* Hero-sektionen */}
       <header className="hero">
         <div className="overlay"></div>
@@ -26,7 +26,7 @@ const FaktaOm = () => {
       </header>
 
       {/* Innehåll */}
-      <div className="stats">
+      <div class="lär-dig">
         {/* CO2-utsläpp */}
         <section >
           <Utsläppstabell />
@@ -36,7 +36,7 @@ const FaktaOm = () => {
         </section>
 
         {/* Glaciärstorlek */}
-        <section>
+      <section >
          <GlacierChart />
           <p>
             Grafen visar hur glaciärernas genomsnittliga storlek har minskat de senaste decennierna på grund av den globala uppvärmningen.
@@ -44,7 +44,7 @@ const FaktaOm = () => {
         </section>
 
         {/* Havsnivåhöjningar */}
-        <section>
+        <section >
         <SeaLevelChart />
           <p>
             Visualisering av hur havsnivån har stigit globalt över tid och vilka konsekvenser detta har.

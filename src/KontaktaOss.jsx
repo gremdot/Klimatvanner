@@ -13,7 +13,7 @@ const KontaktaOss = () => {
         <p>Har du frågor, idéer eller tankar så är du varmt välkommen att höra av dig till oss på Klimatvänner.
         Skicka gärna ett meddelande till oss via mejl formuläret - vi hjälper dig gärna!</p>
       </div>
-      {/*En <header> med klass "hero" som består av <img>, <h1> och <p>. Detta mönster följs på var sida förutom /klimatnyheter.*/}
+      {/*En <header> med klass "hero" som består av <img>, <h1> och <p>. Detta mönster följs på var sida */}
     </header>
 
       
@@ -25,11 +25,12 @@ const KontaktaOss = () => {
           <p>Näsgatan 123</p>
           <p>114 56</p>
           <p>Stockholm</p>
-          <h2>Support</h2>
+          <h2 class="support">Support</h2>
           <p>Öppet mellan kl: 10:00 - 16:00</p>
           <p>+4673 12131415</p>
         </div>
-        {/*En <div> med klass "kontakt-info". Den består av två <h2> och flera <p> som anger kontaktinformation till användare.*/}
+        {/*En <div> med klass "kontakt-info". Den består av två <h2> och flera <p> som anger kontaktinformation till användare.
+        klassen support skapar ett avstånd mellan support och paragrafen ovan*/}
 
         {/* Kontaktformulär */}
         <div className="kontakt-form">

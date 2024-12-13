@@ -28,7 +28,7 @@ const FaktaOm = () => {
       {/* Innehåll */}
       <div class="lär-dig">
         {/* CO2-utsläpp */}
-        <section >
+         <section class="support">
           <Utsläppstabell />
           <p>
           Koldioxid, eller CO₂, är en gas som bildas när vi använder fossila bränslen som kol, olja och gas för att få energi. Till exempel när vi kör bil, flyger eller producerar el i fabriker. 
@@ -40,7 +40,7 @@ const FaktaOm = () => {
         </section>
 <br/>
         {/* Glaciärstorlek */}
-      <section >
+      <section class="support">
          <GlacierChart />
           <p>
           Glaciärer är enorma ismassor som finns i bergskedjor och vid polerna. De fungerar som naturens kylskåp eftersom de hjälper till att hålla jorden sval. 
@@ -53,7 +53,7 @@ const FaktaOm = () => {
 
 <br/>
         {/* Havsnivåhöjningar */}
-        <section >
+        <section class="support">
         <SeaLevelChart />
           <p>
           Havsnivån stiger när isarna smälter och när havsvattnet värms upp, eftersom varmt vatten tar mer plats än kallt. 

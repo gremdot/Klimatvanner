@@ -6,7 +6,7 @@ const LärDig = () => {
   Dessa stylas med hjälp av olika css-klasser (overlay: gör bilden mörkare, hero: centrerar text
   och gör att bilden har 100% width, hero-text: placerar texten ovanpå bilden, hero-image: bestämmer 
   höjden på bilden) */ 
-  
+
   return (
           <div>
     {/* Hero-sektionen */}
@@ -37,7 +37,7 @@ const LärDig = () => {
         </div>
         <div className="topic">
           <img src="./sortering.jpg" alt="Återvinning" />
-          <div>
+          <div >
             <h3>Återvinning och pant</h3>
             <p>
             Att återvinna och panta sparar energi – och det är dessutom enkelt! Hur många gånger har du druckit ur en 

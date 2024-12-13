@@ -297,7 +297,6 @@ h3 {
 .topic {
   display: flex;
   gap: 20px;
-  border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
 }
 .topic img {
@@ -312,6 +311,13 @@ h3 {
   line-height: 1.4;
 }
 
+.hr {
+  background-color: #046835;
+  margin-right: 70px;
+  margin-left:70px;
+  margin-bottom:30px;
+  height: 3px;
+}
 
 
 /* LÄR DIG MER */

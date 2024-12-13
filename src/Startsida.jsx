@@ -82,9 +82,9 @@ Tillsammans skapar vi en grönare framtid. Är du med?
             <a href="#"> Läs mer</a>
           </div>
         </div>
-        <Link to="/klimatnyheter">
+        <a href="/klimatnyheter">
         <button className="btn">Klicka här för att läsa fler klimatnyheter</button>
-        </Link>
+        </a>
       </section>
     </div>
   );

@@ -1,8 +1,16 @@
 import React, { useState } from 'react';
-import './App.css';
+import './App.css'; //så att css filen importeras för stylingen
 
+/* Funktionen klimatnyheter är huvudkomponenten för sidan klimatnyheter.*/
 const Klimatnyheter = () => {
-  // Initiala nyheter
+  /** Funktionen använder useState för att skapa ett tillstånd där alla nyheterna lagras 
+   * I title står varje nyhets titel
+   * I date står datumet
+   * I description så står en kort beskrivning av nyheten som alltid visas
+   * I extendedDescription så finns en utökad text till varje nyhet som visas om användaren klickar på "läs mer" knappen
+   * Image är för att varje nyhet visas med en tillhörande bild
+   * showMore är ett tillstånd som hanterar ifall den utökande nyhetstexten ska visas eller inte. 
+  */
   const [news, setNews] = useState([
     {
       id: 1,
@@ -39,7 +47,9 @@ const Klimatnyheter = () => {
     },
   ]);
 
-  // Fler nyheter att ladda
+  /** 
+   * Funktionen additionalNews skapar en lista med nyheter som kan visas när en användare vill se fler nyheter genom knappen "Ladda fler nyheter"
+   */
   const additionalNews = [
     {
       id: 4,
@@ -65,10 +75,18 @@ const Klimatnyheter = () => {
     },
   ];
 
-  // Index för nästa nyhet som ska laddas
+  /**
+   * En tillståndshanterare (loadIndex) som håller koll på hur många fler nyheter som har tryckts fram av användaren från listan i additionalNews.
+   * useState(0) innebär att värdet för tillståndet från början är 0. Varje gång en användare trycker på knappen "Ladda fler nyheter" hamnar yttligare en nyhet i funktionen news, och loadIndex uppdateras med +1
+   */
   const [loadIndex, setLoadIndex] = useState(0);
 
-  // Hantera laddning av fler nyheter
+  /**
+   * Funktionen loadMore laddar fram fler nyheter från additionalNews och lägger till dom i news. If variabeln gör att det inte går att ladda fram fler nyheter än vad som finns i listan i additionalNews.
+   * Om användaren redan har laddat fram alla nyheter som finns i listan, alltså att loadIndex är samma som additionalNews.lenght så händer alltså ingenting mer. 
+   * setNews hämtar innehållet från listan som finns i news och läggar till nästa nyhet från listan i additionalNews, baserat på datan från loadIndex.
+   * setLoadIndex(loadIndex +1) ökar loadIndex med 1 varje gång som funktionen anropas.
+   */
   const loadMore = () => {
     if (loadIndex < additionalNews.length) {
       setNews([...news, additionalNews[loadIndex]]);
@@ -76,7 +94,10 @@ const Klimatnyheter = () => {
     }
   };
 
-  // Hantera visning av utökad text
+  /**Funktionen toggleDescription används för att hantera om den utökande texten (extendedDescription) för varje nyhet ska visas eller inte för varje individuell nyhet.
+   * Funktionen anropas när en användare klickar på knappen "läs mer" eller "stäng"
+   * 
+   */
   const toggleDescription = (id) => {
     setNews((prevNews) =>
       prevNews.map((item) =>
@@ -87,7 +108,8 @@ const Klimatnyheter = () => {
 
   return (
     <div >
-      {/* Hero-sektionen */}
+      {/* först renderas precis som på samtliga sidor, en header med bild + text + overlay- och hero klassen 
+      som gör bilden mörkare. Läs mer på sidan LärDig.jsx. Det är samma princip som där*/}
       <header className="hero">
         <div className="overlay"></div>
         <img
@@ -124,7 +146,7 @@ const Klimatnyheter = () => {
         ))}
       </div>
 
-      {/* Ladda fler-knapp */}
+      {/* knapp för att ladda fler nyheter */}
       {loadIndex < additionalNews.length && (
         <button className="btn load" onClick={loadMore}>
           Ladda fler nyheter

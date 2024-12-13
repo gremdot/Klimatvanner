@@ -26,6 +26,9 @@ h3 {
   padding: 20px;
 }
 
+.headerbild {
+  max-width: 100%;
+}
 
 
 /* APP */
@@ -230,6 +233,9 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 .news-item {
   display: flex;

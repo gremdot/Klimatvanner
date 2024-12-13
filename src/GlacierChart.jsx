@@ -24,7 +24,7 @@ ChartJS.register(
 
 const GlacierChart = () => {
   const data = {
-    labels: glacierData.map((item) => item.Year),
+    labels: glacierData.map((item) => item.Year), // Extraherar året från datan
     datasets: [
       {
         label: 'Glaciärers massbalans (m)',
@@ -45,6 +45,20 @@ const GlacierChart = () => {
       title: {
         display: true,
         text: 'Glaciärers Massbalans över Tid',
+      },
+    },
+    scales: {
+      x: {
+        title: {
+          display: true,
+          text: 'År', // Beskrivning för x-axeln
+        },
+      },
+      y: {
+        title: {
+          display: true,
+          text: 'Medel ackumulerad massbalans (m)', // Beskrivning för y-axeln
+        },
       },
     },
   };

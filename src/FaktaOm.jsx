@@ -38,7 +38,7 @@ const FaktaOm = () => {
             Vi kan minska utsläppen genom att använda förnybar energi som sol- och vindkraft, åka kollektivt och minska vårt användande av plast.
           </p>
         </section>
-
+<br/>
         {/* Glaciärstorlek */}
       <section >
          <GlacierChart />
@@ -51,6 +51,7 @@ const FaktaOm = () => {
           </p>
         </section>
 
+<br/>
         {/* Havsnivåhöjningar */}
         <section >
         <SeaLevelChart />

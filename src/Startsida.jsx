@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css'; // CSS-filen för styling
 import Quiz from './Quiz'; // Kontrollera att sökvägen till Quiz-komponenten är korrekt
+import { Link } from 'react-router-dom';
 
 
 const Startsida = () => {
@@ -16,7 +17,7 @@ const Startsida = () => {
         />
         <div className="hero-text">
           <h1>Klimatvänner</h1>
-          <p>Det finns ingen planet B, dags att steppa upp</p>
+          <p>Det finns ingen planet B, dags att steppa upp!</p>
         </div>
       </header>
 
@@ -81,7 +82,9 @@ Tillsammans skapar vi en grönare framtid. Är du med?
             <a href="#"> Läs mer</a>
           </div>
         </div>
+        <Link to="/klimatnyheter">
         <button className="btn">Klicka här för att läsa fler klimatnyheter</button>
+        </Link>
       </section>
     </div>
   );

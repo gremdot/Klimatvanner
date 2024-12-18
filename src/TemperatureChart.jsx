@@ -12,7 +12,7 @@ import {
 import { Line } from 'react-chartjs-2';
 import temperatureData from './data/Global_temp.json';
 
-// Registrera ChartJS-komponenter
+// Registrerar ChartJS-komponenter
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -24,12 +24,12 @@ ChartJS.register(
 );
 
 const TemperatureChart = () => {
-  // Hämta data från JSON
+  // Hämtar data från JSON
   const years = temperatureData.map((item) => item.Year);
   const gcagTemps = temperatureData.map((item) => item.GCAG);
   const gistempTemps = temperatureData.map((item) => item.GISTEMP);
 
-  // Konfigurera data för grafen
+  // Konfigurerar data för grafen
   const data = {
     labels: years,
     datasets: [

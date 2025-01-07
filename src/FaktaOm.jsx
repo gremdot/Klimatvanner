@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Utsläppstabell from './Utsläppstabell'; // För CO2-utsläpp
-import TemperatureChart from './TemperatureChart'; // För globala temperaturförändringar
 import GlacierChart from './GlacierChart'; // För glaciärstorlek
 import SeaLevelChart from './SeaLevelChart'; // För havsnivåhöjningar
 

@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
 import Utsläppstabell from './Utsläppstabell'; // För CO2-utsläpp
-import GlacierChart from './GlacierChart'; // För glaciärstorlek
-import SeaLevelChart from './SeaLevelChart'; // För havsnivåhöjningar
+import Glaciärtabell from './Glaciärtabell'; // För glaciärstorlek
+import Havsnivåtabell from './Havsnivåtabell'; // För havsnivåhöjningar
 
 
 const FaktaOm = () => {
   return (
-
-
     <div>
       {/* Hero-sektionen */}
       <header className="hero">
@@ -38,10 +36,10 @@ const FaktaOm = () => {
           <h4>Förebyggande Åtgärder</h4>
           <p>Vi kan minska utsläppen genom att använda förnybar energi som sol- och vindkraft, åka kollektivt och minska vårt användande av plast.</p>
         </section>
-<br/>
+
         {/* Glaciärstorlek */}
       <section class="tables">
-         <GlacierChart />
+         <Glaciärtabell />
          <h3 id="glac-h3">Glaciärer</h3>
          <p>Är enorma ismassor som finns i bergskedjor och vid polerna. De fungerar som naturens kylskåp eftersom de hjälper till att hålla jorden sval. Men när temperaturen på jorden ökar, börjar glaciärerna smälta.
          <br /><br />Diagrammet ovan visar hur glaciärernas storlek har minskat drastiskt under de senaste decennierna. </p>
@@ -51,10 +49,9 @@ const FaktaOm = () => {
          <p>För att stoppa detta behöver vi minska våra utsläpp och skydda våra glaciärer innan det är för sent.</p>
         </section>
 
-<br/>
         {/* Havsnivåhöjningar */}
         <section class="tables">
-        <SeaLevelChart />
+        <Havsnivåtabell />
         <h3 id="sea-h3">Havsnivån</h3>
         <p>Är jordens basnivå som används för att mäta höjd och djup. Havsnivåhöjningar sker när isarna smälter och när havsvattnet värms upp, eftersom varmt vatten tar mer plats än kallt vatten. 
         <br /><br />Diagrammet ovan visar hur havsnivån har stigit från och med 1800-talet och framåt. </p>

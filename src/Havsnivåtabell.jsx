@@ -1,6 +1,6 @@
 import React from 'react';
 import { Line } from 'react-chartjs-2';
-import glacierData from './data/Glaciers_size.json';
+import seaLevelData from './data/Sea_level.json';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -22,15 +22,15 @@ ChartJS.register(
   Legend
 );
 
-const GlacierChart = () => {
+const Havsnivåtabell = () => {
   const data = {
-    labels: glacierData.map((item) => item.Year), // Extraherar året från datan
+    labels: seaLevelData.map((item) => item.Time.split('-')[0]), // Extrahera bara året
     datasets: [
       {
-        label: 'Glaciärers massbalans (m)',
-        data: glacierData.map((item) => item['Mean cumulative mass balance']),
-        borderColor: '#0099ff',
-        backgroundColor: 'rgba(0, 153, 255, 0.2)',
+        label: 'Havsnivåhöjning (mm)',
+        data: seaLevelData.map((item) => item.GMSL),
+        borderColor: '#0044cc',
+        backgroundColor: 'rgba(0, 68, 204, 0.2)',
         tension: 0.4,
       },
     ],
@@ -44,31 +44,31 @@ const GlacierChart = () => {
       },
       title: {
         display: true,
-        text: 'Glaciärers Massbalans över Tid',
+        text: 'Havsnivåhöjningar över Tid',
       },
     },
     scales: {
       x: {
         title: {
           display: true,
-          text: 'År', // Beskrivning för x-axeln
+          text: 'År',
         },
       },
       y: {
         title: {
           display: true,
-          text: 'Medel ackumulerad massbalans (m)', // Beskrivning för y-axeln
+          text: 'Havsnivåhöjning (mm)',
         },
       },
     },
   };
 
   return (
-    <div className="glacier">
-      <h2>Glaciärstorlek</h2>
+    <div className="sealevel">
+      <h2>Havsnivåhöjningar</h2>
       <Line data={data} options={options} />
     </div>
   );
 };
 
-export default GlacierChart;
+export default Havsnivåtabell;

@@ -3,7 +3,17 @@ import './Footer.css';
 
 const Footer = () => {
   return (
+
+   
+
+   
+
     <footer>
+       <img
+      src="grass.png"
+      alt="Hero"
+      className="gräs"
+    />
       <div className="footer"> 
         <section>
         <div className="footer-container">

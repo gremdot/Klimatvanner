@@ -43,7 +43,7 @@ const Startsida = () => {
       <header className="hero">
         <div className="overlay"></div>
         <img
-          src="https://images.pexels.com/photos/4666753/pexels-photo-4666753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          src="https://images.pexels.com/photos/247376/pexels-photo-247376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           alt="Hero"
           className="hero-image"
         />
@@ -61,7 +61,7 @@ const Startsida = () => {
           behövs! Vi riktar oss till unga som bryr sig om klimatet och vill
           bidra till en hållbar framtid.
         </p>
-        <img src="./klimatvanner_svart.png" alt="Mission logo" />
+        <img src="./klimatvanner.png" alt="Mission logo" />
       </section>
 
       {/* Quiz */}

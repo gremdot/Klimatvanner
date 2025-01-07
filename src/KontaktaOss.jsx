@@ -35,7 +35,7 @@ const KontaktaOss = () => {
         {/* Kontaktformulär */}
         <div className="kontakt-form">
           <h2>Kontakta oss via mail</h2>
-          <p>Fält med * måste fyllas i.</p>
+          <p class="utrymme">Fält med * måste fyllas i.</p>
           <form>
             <div className="form-group">
               <label htmlFor="name">Namn*</label>

@@ -483,3 +483,8 @@ form .form-group textarea {
     transform: translateX(-100%); /* Slutar utanför bannern på andra sidan */
   }
 }
+
+
+.utrymme {
+  padding-bottom: 15px;
+}

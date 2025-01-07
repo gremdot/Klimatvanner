@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './Navbar'; // Navigationskomponent för att hantera sidans meny
 import Startsida from './Startsida'; //Komponenten för "startsidan"
 import Klimatnyheter from './Klimatnyheter'; //Komponenten för "klimatnyheter" sidan

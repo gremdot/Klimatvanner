@@ -130,10 +130,25 @@ const Quiz = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [showResult, setShowResult] = useState(false);
+  const [answers, setAnswers] = useState([]); // Lagrar användarens svar och status
+  const [showDetails, setShowDetails] = useState(false); // För att visa detaljerad resultat
 
   // Hantera svar
   const handleAnswer = (selectedOption) => {
-    if (selectedOption === questions[currentQuestion].correctAnswer) {
+    const isCorrect = selectedOption === questions[currentQuestion].correctAnswer;
+
+    // Uppdatera svarens status
+    setAnswers([
+      ...answers,
+      {
+        question: questions[currentQuestion].question,
+        selectedAnswer: selectedOption,
+        correctAnswer: questions[currentQuestion].correctAnswer,
+        isCorrect,
+      },
+    ]);
+
+    if (isCorrect) {
       setScore(score + 1);
     }
 
@@ -154,6 +169,31 @@ const Quiz = () => {
           <p>
             Du fick {score} av {questions.length} rätt!
           </p>
+          {/* Visa detaljerad feedback */}
+          <button onClick={() => setShowDetails(!showDetails)}>
+            {showDetails ? 'Dölj detaljer' : 'Visa vilka frågor du hade fel på'}
+          </button>
+          {showDetails && (
+            <div className="details">
+              {answers.map((answer, index) => (
+                <div key={index} className="answer-detail">
+                  <p>
+                    <strong>Fråga:</strong> {answer.question}
+                  </p>
+                  <p>
+                    <strong>Ditt svar:</strong> {answer.selectedAnswer}{' '}
+                    {answer.isCorrect ? '✔️' : '❌'}
+                  </p>
+                  {!answer.isCorrect && (
+                    <p>
+                      <strong>Korrekt svar:</strong> {answer.correctAnswer}
+                    </p>
+                  )}
+                  <hr />
+                </div>
+              ))}
+            </div>
+          )}
           <button onClick={() => window.location.reload()}>Gör quiz igen</button>
         </div>
       ) : (

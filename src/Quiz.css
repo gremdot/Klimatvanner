@@ -84,4 +84,21 @@
     background-color: #02471f; /* Ännu mörkare grön vid klick */
     transform: scale(1); /* Återställ storlek vid klick */
   }
+  .details {
+    margin-top: 20px;
+    text-align: left;
+  }
   
+  .answer-detail {
+    margin-bottom: 15px;
+  }
+  
+  .answer-detail p {
+    margin: 5px 0;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+  }

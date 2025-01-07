@@ -64,7 +64,7 @@ const GlacierChart = () => {
   };
 
   return (
-    <div>
+    <div className="glacier">
       <h2>Glaciärstorlek</h2>
       <Line data={data} options={options} />
     </div>

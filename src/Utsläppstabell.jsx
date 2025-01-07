@@ -66,7 +66,7 @@ const Utsläppstabell = () => {
   };
 
   return (
-    <div>
+    <div className="gas">
       <h2>CO2-utsläpp</h2>
       <Line data={data} options={options} />
     </div>

@@ -64,7 +64,7 @@ const SeaLevelChart = () => {
   };
 
   return (
-    <div>
+    <div className="sealevel">
       <h2>Havsnivåhöjningar</h2>
       <Line data={data} options={options} />
     </div>

@@ -470,3 +470,15 @@ form .form-group textarea {
     transform: translateX(-100%); /* Slutar utanför bannern på andra sidan */
   }
 }
+
+.glacier h2 {
+  color: #007acc;
+}
+
+.sealevel h2 {
+  color: #004bbd;
+}
+
+.gas h2 {
+  color: #046835;
+}

@@ -398,10 +398,6 @@ form .form-group textarea {
   height: 100px;
 }
 
-.support {
-  margin-top: 40px;
-  margin-bottom:40px;
-}
 
 /*TABELL*/
 .table-section {
@@ -412,35 +408,51 @@ form .form-group textarea {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Skugga för effekt */
   text-align: center;
 }
-
 .table-section h2 {
   color: #046835; /* Grön textfärg för rubriken */
   margin-bottom: 20px;
 }
-
 .table-section table {
   width: 100%;
   border-collapse: collapse;
   margin: 20px 0;
 }
-
 .table-section th,
 .table-section td {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: center;
 }
-
 .table-section th {
   background-color: #046835;
   color: white;
 }
+.glacier h2, #glac-h3 {
+  color: #007acc;
+}
+.sealevel h2, #sea-h3 {
+  color: #004bbd;
+}
+.gas h2, #kol-h3 {
+  color: #046835;
+}
+.tables {
+  margin-top: 40px;
+  margin-bottom:40px;
+}
+.tables h4 {
+  padding-top: 20px;
+  color: #b15500;
+}
 
+
+/*Footer Gräs*/
 .gräs {
   width: 100%;
   height: 150px;
   background-color: #ffffff;
 }
+
 
 /* Banner-styling */
 .scroll-banner {
@@ -469,16 +481,4 @@ form .form-group textarea {
   100% {
     transform: translateX(-100%); /* Slutar utanför bannern på andra sidan */
   }
-}
-
-.glacier h2 {
-  color: #007acc;
-}
-
-.sealevel h2 {
-  color: #004bbd;
-}
-
-.gas h2 {
-  color: #046835;
 }

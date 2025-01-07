@@ -27,40 +27,41 @@ const FaktaOm = () => {
       {/* Innehåll */}
       <div class="lär-dig">
         {/* CO2-utsläpp */}
-         <section class="support">
+         <section class="tables">
           <Utsläppstabell />
-          <p>
-          Koldioxid, eller CO₂, är en gas som bildas när vi använder fossila bränslen som kol, olja och gas för att få energi. Till exempel när vi kör bil, flyger eller producerar el i fabriker. 
-            Det som gör CO₂ så viktigt att prata om är att det är en av de största orsakerna till den globala uppvärmningen. 
-            Diagrammet visar hur mycket koldioxid människor har släppt ut redan från industriella revolutionens början på 1800-talet fram tills idag. 
-            Ju mer vi släpper ut, desto varmare blir jorden, vilket leder till farliga konsekvenser som smältande isar, höjda havsnivåer och fler extrema väderhändelser.
-            Vi kan minska utsläppen genom att använda förnybar energi som sol- och vindkraft, åka kollektivt och minska vårt användande av plast.
-          </p>
+          <h3 id="kol-h3">Koldioxid eller CO₂</h3>
+          <p>Är en gas som bildas när vi använder fossila bränslen som kol, olja och gas för att få energi. CO₂ bildas när vi till exempel kör bil, flyger eller producerar el i fabriker. Det som gör CO₂ så viktigt att prata om är att det är en av de största orsakerna till den globala uppvärmningen! 
+          <br /><br />
+          Diagrammet ovan visar hur mycket koldioxid människor har släppt ut redan från industriella revolutionens början på 1800-talet fram tills idag. </p>
+          <h4>Konsekvenser</h4>
+          <p>Ju mer vi släpper ut, desto varmare blir jorden, vilket leder till farliga konsekvenser som smältande glaciärer som höjer havsnivåerna och andra extrema väderhändelser.</p>
+          <h4>Förebyggande Åtgärder</h4>
+          <p>Vi kan minska utsläppen genom att använda förnybar energi som sol- och vindkraft, åka kollektivt och minska vårt användande av plast.</p>
         </section>
 <br/>
         {/* Glaciärstorlek */}
-      <section class="support">
+      <section class="tables">
          <GlacierChart />
-          <p>
-          Glaciärer är enorma ismassor som finns i bergskedjor och vid polerna. De fungerar som naturens kylskåp eftersom de hjälper till att hålla jorden sval. 
-            Men när temperaturen på jorden ökar, börjar glaciärerna smälta. Diagrammet visar hur glaciärernas storlek har minskat drastiskt under de senaste decennierna. 
-            När glaciärerna smälter, rinner isvattnet ut i havet, vilket gör att havsnivån stiger. 
-            Detta påverkar både djur och människor. Djur som isbjörnar och sälar förlorar sina livsmiljöer, och människor som bor nära kusterna riskerar att få sina hem översvämmade.
-            För att stoppa detta behöver vi minska våra utsläpp och skydda våra isar innan det är för sent.
-          </p>
+         <h3 id="glac-h3">Glaciärer</h3>
+         <p>Är enorma ismassor som finns i bergskedjor och vid polerna. De fungerar som naturens kylskåp eftersom de hjälper till att hålla jorden sval. Men när temperaturen på jorden ökar, börjar glaciärerna smälta.
+         <br /><br />Diagrammet ovan visar hur glaciärernas storlek har minskat drastiskt under de senaste decennierna. </p>
+         <h4>Konsekvenser</h4>
+         <p>När glaciärerna smälter, rinner isen och vattnet ut i havet. Vilket höjer havsnivåerna. Detta påverkar både djur och människor. Djur som isbjörnar och sälar förlorar sina livsmiljöer, och människor som bor nära kusterna riskerar att få sina hem översvämmade. </p>
+         <h4>Förebyggande Åtgärder</h4>
+         <p>För att stoppa detta behöver vi minska våra utsläpp och skydda våra glaciärer innan det är för sent.</p>
         </section>
 
 <br/>
         {/* Havsnivåhöjningar */}
-        <section class="support">
+        <section class="tables">
         <SeaLevelChart />
-          <p>
-          Havsnivån stiger när isarna smälter och när havsvattnet värms upp, eftersom varmt vatten tar mer plats än kallt. 
-            Diagrammet visar hur havsnivån har stigit från och med 1800-talet och framåt.  
-            När havsnivån höjs kan det orsaka stora problem. Till exempel kan städer och byar nära havet översvämmas, vilket gör att människor måste flytta. 
-            Även ekosystem som mangroveskogar och korallrev förstörs, vilket påverkar både djur och människor som är beroende av dessa miljöer. 
-            Vi kan hjälpa till att bromsa havsnivåhöjningarna genom att minska våra utsläpp, skydda kustområden och använda naturbaserade lösningar som att återplantera mangroveskogar.
-          </p>
+        <h3 id="sea-h3">Havsnivån</h3>
+        <p>Är jordens basnivå som används för att mäta höjd och djup. Havsnivåhöjningar sker när isarna smälter och när havsvattnet värms upp, eftersom varmt vatten tar mer plats än kallt vatten. 
+        <br /><br />Diagrammet ovan visar hur havsnivån har stigit från och med 1800-talet och framåt. </p>
+        <h4>Konsekvenser</h4>
+        <p>När havsnivån höjs kan det orsaka stora problem. Till exempel kan städer och byar nära havet översvämmas, vilket gör att människor måste fly. Även ekosystem som mangroveskogar och korallrev förstörs, vilket påverkar både djur och människor som är beroende av dessa miljöer. </p>
+        <h4>Förebyggande Åtgärder</h4>
+        <p>Vi kan hjälpa till att bromsa havsnivåhöjningarna genom att minska våra utsläpp, skydda kustområden och använda naturbaserade lösningar som att återplantera mangroveskogar vars rötter stoppar översvämningar. </p>
         </section>
       </div>
     </div>

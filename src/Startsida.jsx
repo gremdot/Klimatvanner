@@ -41,11 +41,7 @@ const Startsida = () => {
       {/* Hero-sektionen */}
       <header className="hero">
         <div className="overlay"></div>
-        <img
-          src="https://images.pexels.com/photos/247376/pexels-photo-247376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-          alt="Hero"
-          className="hero-image"
-        />
+        <img src="./zebra.png" alt="två zebror i safari" className="hero-image" />
         <div className="hero-text">
           <h1>Klimatvänner</h1>
           <p>Det finns ingen planet B, dags att steppa upp!</p>

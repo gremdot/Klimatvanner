@@ -52,6 +52,11 @@ const Startsida = () => {
           <p>Det finns ingen planet B, dags att steppa upp!</p>
         </div>
       </header>
+      
+ {/* Rullande banner */}
+ <div className="scroll-banner">
+    <p>Scrolla ner för att testa dina klimatkunskaper med vårt quiz!</p>
+  </div>
 
       {/* Mission-sektionen */}
       <section className="mission">

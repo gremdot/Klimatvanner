@@ -441,3 +441,32 @@ form .form-group textarea {
   height: 150px;
   background-color: #ffffff;
 }
+
+/* Banner-styling */
+.scroll-banner {
+  position: relative;
+  width: 100%;
+  background-color: #046835; /* Mörkgrön bakgrundsfärg */
+  color: white;
+  font-size: 1.5rem; /* Storlek på texten */
+  text-align: center;
+  padding: 10px 0; /* Gör bannern relativt smal */
+  overflow: hidden; /* Dölj eventuell överflödig text */
+}
+
+/* Text-animation */
+.scroll-banner p {
+  display: inline-block;
+  white-space: nowrap; /* Håller texten på en rad */
+  animation: scrollText 10s linear infinite; /* Rulla texten långsamt */
+}
+
+/* Definiera animationen */
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%); /* Börjar utanför bannern */
+  }
+  100% {
+    transform: translateX(-100%); /* Slutar utanför bannern på andra sidan */
+  }
+}

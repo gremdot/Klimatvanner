@@ -12,8 +12,8 @@ const FaktaOm = () => {
       <header className="hero">
         <div className="overlay"></div>
         <img
-          src="https://images.pexels.com/photos/18569964/pexels-photo-18569964/free-photo-of-natur-skog-trad-host.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-          alt="Hero"
+          src="./bjork_skog.jpeg"
+          alt="Björk skog"
           className="hero-image"
         />
         <div className="hero-text">

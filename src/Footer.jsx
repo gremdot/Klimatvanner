@@ -4,10 +4,6 @@ import './Footer.css';
 const Footer = () => {
   return (
 
-   
-
-   
-
     <footer>
        <img
       src="grass.png"

@@ -12,11 +12,7 @@ const LärDig = () => {
     {/* Hero-sektionen */}
     <header className="hero">
     <div className="overlay"></div>
-      <img
-                src="https://images.pexels.com/photos/802221/pexels-photo-802221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" // Byt ut mot din bild-URL
-        alt="Hero"
-        className="hero-image"
-      />
+      <img src="./pant.png" alt="ett hav av pant" className="hero-image"/>
       <div className="hero-text">
         <h1>Rädda planeten - <br/> var med och gör skillnad!</h1>
         <p> Vår planet mår dåligt och behöver din hjälp! Det kan kännas hopplöst att läsa om 

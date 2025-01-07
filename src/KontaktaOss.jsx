@@ -7,7 +7,7 @@ const KontaktaOss = () => {
     {/* Hero-sektionen */}
     <header className="hero">
     <div className="overlay"></div>
-      <img src="./växande_växt.png" alt="header image of growing plant" className="hero-image"/>
+      <img src="./växande_växt.png" alt="händer som håller en växande planta" className="hero-image"/>
       <div className="hero-text">
         <h1>Kontakta oss</h1>
         <p>Har du frågor, idéer eller tankar så är du varmt välkommen att höra av dig till oss på Klimatvänner.

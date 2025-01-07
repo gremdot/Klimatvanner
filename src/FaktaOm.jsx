@@ -33,7 +33,7 @@ const FaktaOm = () => {
           <p>
           Koldioxid, eller CO₂, är en gas som bildas när vi använder fossila bränslen som kol, olja och gas för att få energi. Till exempel när vi kör bil, flyger eller producerar el i fabriker. 
             Det som gör CO₂ så viktigt att prata om är att det är en av de största orsakerna till den globala uppvärmningen. 
-            Diagrammet visar hur mycket koldioxid människor har släppt ut under de senaste åren. 
+            Diagrammet visar hur mycket koldioxid människor har släppt ut redan från industriella revolutionens början på 1800-talet fram tills idag. 
             Ju mer vi släpper ut, desto varmare blir jorden, vilket leder till farliga konsekvenser som smältande isar, höjda havsnivåer och fler extrema väderhändelser.
             Vi kan minska utsläppen genom att använda förnybar energi som sol- och vindkraft, åka kollektivt och minska vårt användande av plast.
           </p>
@@ -57,7 +57,7 @@ const FaktaOm = () => {
         <SeaLevelChart />
           <p>
           Havsnivån stiger när isarna smälter och när havsvattnet värms upp, eftersom varmt vatten tar mer plats än kallt. 
-            Diagrammet visar hur havsnivån har stigit under de senaste åren och hur den fortsätter att stiga om vi inte gör något åt det. 
+            Diagrammet visar hur havsnivån har stigit från och med 1800-talet och framåt.  
             När havsnivån höjs kan det orsaka stora problem. Till exempel kan städer och byar nära havet översvämmas, vilket gör att människor måste flytta. 
             Även ekosystem som mangroveskogar och korallrev förstörs, vilket påverkar både djur och människor som är beroende av dessa miljöer. 
             Vi kan hjälpa till att bromsa havsnivåhöjningarna genom att minska våra utsläpp, skydda kustområden och använda naturbaserade lösningar som att återplantera mangroveskogar.

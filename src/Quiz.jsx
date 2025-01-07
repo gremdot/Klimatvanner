@@ -171,7 +171,7 @@ const Quiz = () => {
           </p>
           {/* Visa detaljerad feedback */}
           <button onClick={() => setShowDetails(!showDetails)}>
-            {showDetails ? 'Dölj detaljer' : 'Visa vilka frågor du hade fel på'}
+            {showDetails ? 'Stäng' : 'Visa vilka frågor du hade fel på'}
           </button>
           {showDetails && (
             <div className="details">

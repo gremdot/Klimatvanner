@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './App.css'; // CSS-filen för styling
 import Quiz from './Quiz'; // sökvägen till Quiz-komponenten 
-import { Link } from 'react-router-dom';
 
 const Startsida = () => {
   const [news, setNews] = useState([
@@ -52,7 +51,7 @@ const Startsida = () => {
           <p>Det finns ingen planet B, dags att steppa upp!</p>
         </div>
       </header>
-      
+
  {/* Rullande banner */}
  <div className="scroll-banner">
     <p>Scrolla ner för att testa dina klimatkunskaper med vårt quiz!</p>

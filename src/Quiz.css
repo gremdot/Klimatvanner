@@ -1,12 +1,12 @@
 .quiz {
     max-width: 600px;
-    margin: 20px auto; /* Centrera quizet */
+    margin: 20px auto; 
     padding: 20px;
     text-align: center;
-    border: 2px solid #046835; /* Grön kantlinje */
-    border-radius: 10px; /* Rundade hörn */
-    background-color: #e9f5ec; /* Ljusgrön bakgrund */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Mjuk skugga */
+    border: 2px solid #046835; 
+    border-radius: 10px; 
+    background-color: #e9f5ec; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   }
   
   .question-card {
@@ -16,13 +16,13 @@
   .question-card h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #046835; /* Grön textfärg */
+    color: #046835; 
   }
   
   .question-card p {
     font-size: 1.2rem;
     margin-bottom: 20px;
-    color: #333; /* Neutral textfärg */
+    color: #333; 
   }
   
   .options {
@@ -33,41 +33,41 @@
   
   .option-btn {
     padding: 10px 20px;
-    border: 2px solid #046835; /* Grön kantlinje */
-    background-color: #046835; /* Grön bakgrund */
-    color: white; /* Vit textfärg */
+    border: 2px solid #046835; 
+    background-color: #046835; 
+    color: white; 
     font-size: 1rem;
-    border-radius: 5px; /* Rundade hörn */
+    border-radius: 5px; 
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
   }
   
   .option-btn:hover {
-    background-color: #035c29; /* Mörkare grön vid hover */
-    transform: scale(1.05); /* Lätt förstoring vid hover */
+    background-color: #035c29; 
+    transform: scale(1.05); 
   }
   
   .option-btn:active {
-    background-color: #02471f; /* Ännu mörkare grön vid klick */
-    transform: scale(1); /* Återställ storlek vid klick */
+    background-color: #02471f; 
+    transform: scale(1); 
   }
   
   .result h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #046835; /* Grön färg för rubriken */
+    color: #046835; 
   }
   
   .result p {
     font-size: 1.2rem;
     margin-bottom: 20px;
-    color: #333; /* Neutral textfärg */
+    color: #333; 
   }
   
   .result button {
     padding: 10px 20px;
-    background-color: #046835; /* Grön bakgrund */
-    color: white; /* Vit textfärg */
+    background-color: #046835; 
+    color: white; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -76,13 +76,13 @@
   }
   
   .result button:hover {
-    background-color: #035c29; /* Mörkare grön vid hover */
-    transform: scale(1.05); /* Lätt förstoring vid hover */
+    background-color: #035c29; 
+    transform: scale(1.05); 
   }
   
   .result button:active {
-    background-color: #02471f; /* Ännu mörkare grön vid klick */
-    transform: scale(1); /* Återställ storlek vid klick */
+    background-color: #02471f; 
+    transform: scale(1); 
   }
   .details {
     margin-top: 20px;
@@ -104,23 +104,23 @@
   }
   .result button {
     padding: 10px 20px;
-    background-color: #046835; /* Grön bakgrund */
-    color: white; /* Vit textfärg */
+    background-color: #046835; 
+    color: white; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
     transition: background-color 0.3s ease, transform 0.2s ease;
-    margin: 0 10px; /* Mellanrum mellan knapparna */
+    margin: 0 10px; 
   }
   
   .result button:hover {
-    background-color: #035c29; /* Mörkare grön vid hover */
-    transform: scale(1.05); /* Lätt förstoring vid hover */
+    background-color: #035c29; 
+    transform: scale(1.05); 
   }
   
   .result button:active {
-    background-color: #02471f; /* Ännu mörkare grön vid klick */
-    transform: scale(1); /* Återställ storlek vid klick */
+    background-color: #02471f; 
+    transform: scale(1); 
   }
   

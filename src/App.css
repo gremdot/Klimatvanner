@@ -1,4 +1,4 @@
-/* BASE */
+/* BAS */
 * {
   margin: 0;
   padding: 0;
@@ -25,12 +25,9 @@ h3 {
   margin: 0 auto;
   padding: 20px;
 }
-
 .headerbild {
   max-width: 100%;
 }
-
-
 /* APP */
 .App {
   text-align: center;
@@ -52,10 +49,7 @@ h3 {
 .App-link {
   color: #61dafb;
 }
-
-
-
-/* BUTTONS */
+/* KNAPPAR */
 .btn {
   background-color:#046835;
   color: white;
@@ -80,10 +74,7 @@ h3 {
 .search:hover {
   background-color: #93c741;
 }
-
-
-
-/* FILTERS */
+/* FILTER */
 .filter-section {
   display: flex;
   padding-top: 20px;
@@ -97,23 +88,6 @@ h3 {
   border-radius: 5px;
   margin: 7px;
 }
-
-
-
-/* SEARCH */
-.search-bar {
-  display: flex;
-  align-items: center;
-}
-.search-bar input {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-}
-
-
-
 /* NAV */
 .navigation {
   display: flex; 
@@ -142,9 +116,6 @@ h3 {
   max-height: 20px;
   max-width: auto;
 }
-
-
-
 /* STARTSIDA */
 .startsida {
   text-align: center;
@@ -163,7 +134,7 @@ h3 {
   margin: 10px auto;
   line-height: 1.6;
 }
-/* HERO */
+/* HERO-BILD */
 .hero {
   position: relative;
   text-align: center;
@@ -200,9 +171,6 @@ h3 {
   background: rgba(0, 0, 0, 0.5); /* Mörk overlay */
   z-index: 1;
 }
-
-
-
 /* NYHETER */
 .nyheter {
   display: flex;
@@ -228,7 +196,7 @@ h3 {
 .nyhet a:hover {
   text-decoration: underline;
 }
-/* NEWS LIST */
+/* NYHETSLISTA */
 .news-list {
   display: flex;
   flex-direction: column;
@@ -259,10 +227,7 @@ h3 {
 .news-content a:hover {
   text-decoration: underline;
 }
-
-
-
-/* STATS */
+/* STATISTIK */
 .stats {
   display: flex;
   flex-direction: column;
@@ -285,8 +250,7 @@ h3 {
   line-height: 1.6;
   flex: 1;
 }
-
-/* TOPICS */
+/* RUBRIKER */
 .topics {
   display: flex;
   flex-direction: column;
@@ -309,7 +273,6 @@ h3 {
   line-height: 1.4;
 }
 
-
 .hr {
   background-color: #046835;
   margin-right: 70px;
@@ -317,8 +280,6 @@ h3 {
   margin-bottom:30px;
   height: 3px;
 }
-
-
 .centreradtext {
   text-align: center;
   padding-bottom: 12px;
@@ -346,9 +307,6 @@ h3 {
 .learn-more a:hover {
   text-decoration: underline;
 }
-
-
-
 /* KONTAKT */
 .kontakta-oss {
   max-width: 1200px;
@@ -370,7 +328,7 @@ h3 {
 .kontakt-info p {
   margin: 5px 0;
 }
-/* FORM */
+/* FORMULÄR */
 .kontakt-form {
   flex: 2;
 }
@@ -397,8 +355,6 @@ form .form-group textarea {
   resize: none;
   height: 100px;
 }
-
-
 /*TABELL*/
 .table-section {
   margin: 40px auto;
@@ -445,17 +401,13 @@ form .form-group textarea {
   padding-top: 20px;
   color: #b15500;
 }
-
-
-/*Footer Gräs*/
+/*FOOTER GRAFIK*/
 .gräs {
   width: 100%;
   height: 150px;
   background-color: #ffffff;
 }
-
-
-/* Banner-styling */
+/* BANNER STYLING */
 .scroll-banner {
   position: relative;
   width: 100%;
@@ -466,15 +418,11 @@ form .form-group textarea {
   padding: 10px 0; /* Gör bannern relativt smal */
   overflow: hidden; /* Dölj eventuell överflödig text */
 }
-
-/* Text-animation */
 .scroll-banner p {
   display: inline-block;
   white-space: nowrap; /* Håller texten på en rad */
   animation: scrollText 10s linear infinite; /* Rulla texten långsamt */
 }
-
-/* Definiera animationen */
 @keyframes scrollText {
   0% {
     transform: translateX(100%); /* Börjar utanför bannern */
@@ -483,8 +431,6 @@ form .form-group textarea {
     transform: translateX(-100%); /* Slutar utanför bannern på andra sidan */
   }
 }
-
-
 .utrymme {
   padding-bottom: 15px;
 }

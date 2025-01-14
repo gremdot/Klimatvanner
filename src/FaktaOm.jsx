@@ -8,7 +8,7 @@ import Havsnivåtabell from './Havsnivåtabell';
 const FaktaOm = () => {
   return (
     <div>
-      {/* Hero-sektionen */}
+      {/* Hero sektion som innehåller en header, titel och undertitel */}
       <header className="hero">
         <div className="overlay"></div>
         <img src="./bjork_skog.jpeg" alt="Björk skog" className="hero-image"/>
@@ -22,7 +22,9 @@ const FaktaOm = () => {
       <div class="lär-dig">
         {/* CO2-utsläpp */}
          <section class="tables">
+          {/* Funktion som hämtar exporteringen ur tabell komponent */}
           <Utsläppstabell />
+          {/* Sektion som innehåller titel, paragrafer och undertitlar */}
           <h3 id="kol-h3">Koldioxid eller CO₂</h3>
           <p>Är en gas som bildas när vi använder fossila bränslen som kol, olja och gas för att få energi. CO₂ bildas när vi till exempel kör bil, flyger eller producerar el i fabriker. Det som gör CO₂ så viktigt att prata om är att det är en av de största orsakerna till den globala uppvärmningen! 
           <br /><br />
@@ -35,7 +37,9 @@ const FaktaOm = () => {
 
         {/* Glaciärstorlek */}
       <section class="tables">
+        {/* Funktion som hämtar exporteringen ur tabell komponent*/}
          <Glaciärtabell />
+         {/* Sektion som innehåller titel, paragrafer och undertitlar */}
          <h3 id="glac-h3">Glaciärer</h3>
          <p>Är enorma ismassor som finns i bergskedjor och vid polerna. De fungerar som naturens kylskåp eftersom de hjälper till att hålla jorden sval. Men när temperaturen på jorden ökar, börjar glaciärerna smälta.
          <br /><br />Diagrammet ovan visar hur glaciärernas storlek har minskat drastiskt under de senaste decennierna. </p>
@@ -47,7 +51,9 @@ const FaktaOm = () => {
 
         {/* Havsnivåhöjningar */}
         <section class="tables">
+          {/* Funktion som hämtar exporteringen ur tabell komponent*/}
         <Havsnivåtabell />
+        {/* Sektion som innehåller titel, paragrafer och undertitlar */}
         <h3 id="sea-h3">Havsnivån</h3>
         <p>Är jordens basnivå som används för att mäta höjd och djup. Havsnivåhöjningar sker när isarna smälter och när havsvattnet värms upp, eftersom varmt vatten tar mer plats än kallt vatten. 
         <br /><br />Diagrammet ovan visar hur havsnivån har stigit från och med 1800-talet och framåt. </p>

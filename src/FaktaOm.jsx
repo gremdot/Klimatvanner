@@ -29,7 +29,7 @@ const FaktaOm = () => {
           Diagrammet ovan visar hur mycket koldioxid människor har släppt ut redan från industriella revolutionens början på 1800-talet fram tills idag. </p>
           <h4>Konsekvenser</h4>
           <p>Ju mer vi släpper ut, desto varmare blir jorden, vilket leder till farliga konsekvenser som smältande glaciärer som höjer havsnivåerna och andra extrema väderhändelser.</p>
-          <h4>Förebyggande Åtgärder</h4>
+          <h4>Förebyggande åtgärder</h4>
           <p>Vi kan minska utsläppen genom att använda förnybar energi som sol- och vindkraft, åka kollektivt och minska vårt användande av plast.</p>
         </section>
 
@@ -53,7 +53,7 @@ const FaktaOm = () => {
         <br /><br />Diagrammet ovan visar hur havsnivån har stigit från och med 1800-talet och framåt. </p>
         <h4>Konsekvenser</h4>
         <p>När havsnivån höjs kan det orsaka stora problem. Till exempel kan städer och byar nära havet översvämmas, vilket gör att människor måste fly. Även ekosystem som mangroveskogar och korallrev förstörs, vilket påverkar både djur och människor som är beroende av dessa miljöer. </p>
-        <h4>Förebyggande Åtgärder</h4>
+        <h4>Förebyggande åtgärder</h4>
         <p>Vi kan hjälpa till att bromsa havsnivåhöjningarna genom att minska våra utsläpp, skydda kustområden och använda naturbaserade lösningar som att återplantera mangroveskogar vars rötter stoppar översvämningar. </p>
         </section>
       </div>

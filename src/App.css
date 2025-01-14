@@ -309,7 +309,7 @@ h3 {
   line-height: 1.4;
 }
 
-/*gör linjen på lärdig.jsx grön + bestämmer dess storlek*/
+
 .hr {
   background-color: #046835;
   margin-right: 70px;
@@ -318,7 +318,7 @@ h3 {
   height: 3px;
 }
 
-/* centrerar texten på "var med och påverka!" sidan, längst ner, en paragraf...*/
+
 .centreradtext {
   text-align: center;
   padding-bottom: 12px;

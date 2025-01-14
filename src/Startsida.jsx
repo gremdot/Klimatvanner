@@ -3,6 +3,7 @@ import './App.css';
 import Quiz from './Quiz'; 
 
 const Startsida = () => {
+  {/* Klimatnyheter se komponent klimatnyheter.jsx för beskrivande kommentarer av funktion */}
   const [news, setNews] = useState([
     {
       id: 1,
@@ -38,7 +39,7 @@ const Startsida = () => {
 
   return (
     <div className="startsida">
-      {/* Hero-sektionen */}
+      {/* Hero sektion som innehåller en header, titel och undertitel */}
       <header className="hero">
         <div className="overlay"></div>
         <img src="./zebra.png" alt="två zebror i safari" className="hero-image" />
@@ -53,7 +54,7 @@ const Startsida = () => {
     <p>Scrolla ner för att testa dina klimatkunskaper med vårt quiz!</p>
   </div>
 
-      {/* Mission-sektionen */}
+      {/* Mission-sektionen som innehåller titel och paragrafer samt en bild*/}
       <section className="mission">
         <h2>Välkommen till klimatvänner</h2>
         <p>
@@ -64,17 +65,18 @@ const Startsida = () => {
         <img src="./klimatvanner.png" alt="Mission logo" />
       </section>
 
-      {/* Quiz */}
+      {/* Quiz sektion som innehåller titel, paragraf och quizet */}
       <section className="mission">
         <h2>Vill du testa dina klimatkunskaper?</h2>
         <p>
           Hur mycket koll har du på klimatet och hur vi kan påverka det? Ta vårt
           snabba quiz och utmana dig själv!
         </p>
+        {/* Funktion som hämtar exporteringen ur quiz komponent */}
         <Quiz />
       </section>
 
-      {/* Klimatnyheter */}
+      {/* Klimatnyheter se komponent klimatnyheter.jsx för beskrivande kommentarer av funktion */}
       <section className="klimatnyheter">
         <h2>Klimatnyheter</h2>
         <div className="nyheter">

@@ -4,31 +4,25 @@ footer {
   list-style: none;
   text-decoration: none;
 }
-
 footer h4 {
   margin-bottom: 20px;
   margin-top: 10px;
 }
-
 footer a {
   color: white;
   transition: color 0.3s ease;
 }
-
 footer a:hover {
   color: #93c741;
 }
-
 footer ul li {
   margin-bottom: 18px;
 }
-
 footer section {
   padding: 1rem 3rem;
   display: flex;
   align-items: column;
 }
-
 .footer-links {
   display: flex;
   justify-content: space-between;
@@ -38,14 +32,12 @@ footer section {
   width: 40%;
   text-align: left;
 }
-
 .footer-logo img {
   max-height: 90px;
   padding-left: 1rem;
   padding-top: 2rem;
   cursor: pointer;
 }
-
 .footer-container {
   width: 300px;
   margin: 1rem;
@@ -53,7 +45,6 @@ footer section {
   justify-content: flex-start;
   flex-direction: column;
 }
-
 .copyright {
   color: #93c741;
   padding-top: 10px;

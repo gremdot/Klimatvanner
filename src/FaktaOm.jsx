@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import Utsläppstabell from './Utsläppstabell'; // För CO2-utsläpp
-import Glaciärtabell from './Glaciärtabell'; // För glaciärstorlek
-import Havsnivåtabell from './Havsnivåtabell'; // För havsnivåhöjningar
+import Utsläppstabell from './Utsläppstabell'; 
+import Glaciärtabell from './Glaciärtabell'; 
+import Havsnivåtabell from './Havsnivåtabell'; 
 
 
 const FaktaOm = () => {

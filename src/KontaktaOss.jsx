@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css'; // CSS-filen för styling
+import './App.css';
 
 const KontaktaOss = () => {
   return (

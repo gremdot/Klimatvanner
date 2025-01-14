@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css'; //så att css filen importeras för stylingen
+import './App.css'; 
 
 /* Funktionen klimatnyheter är huvudkomponenten för sidan klimatnyheter.*/
 const Klimatnyheter = () => {

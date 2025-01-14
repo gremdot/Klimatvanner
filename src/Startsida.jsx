@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './App.css'; // CSS-filen för styling
-import Quiz from './Quiz'; // sökvägen till Quiz-komponenten 
+import './App.css'; 
+import Quiz from './Quiz'; 
 
 const Startsida = () => {
   const [news, setNews] = useState([

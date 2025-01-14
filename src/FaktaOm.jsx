@@ -41,7 +41,7 @@ const FaktaOm = () => {
          <br /><br />Diagrammet ovan visar hur glaciärernas storlek har minskat drastiskt under de senaste decennierna. </p>
          <h4>Konsekvenser</h4>
          <p>När glaciärerna smälter, rinner isen och vattnet ut i havet. Vilket höjer havsnivåerna. Detta påverkar både djur och människor. Djur som isbjörnar och sälar förlorar sina livsmiljöer, och människor som bor nära kusterna riskerar att få sina hem översvämmade. </p>
-         <h4>Förebyggande Åtgärder</h4>
+         <h4>Förebyggande åtgärder</h4>
          <p>För att stoppa detta behöver vi minska våra utsläpp och skydda våra glaciärer innan det är för sent.</p>
         </section>
 

@@ -14,6 +14,7 @@ const Startsida = () => {
       extendedDescription:
         'Skogsbränder har blivit allt vanligare på grund av klimatförändringar och extremväder. Forskare arbetar med att utveckla bättre metoder för att förebygga och bekämpa bränder.',
       image: './forest_smoke.jpeg',
+      /*Bildkälla, pexels, gratis: https://www.pexels.com/sv-se/foto/skog-i-brand-51951/ */
       showMore: false,
     },
     {
@@ -43,6 +44,7 @@ const Startsida = () => {
       <header className="hero">
         <div className="overlay"></div>
         <img src="./zebra.png" alt="två zebror i safari" className="hero-image" />
+         {/*Bildkälla från pexels, gratis att använda: https://www.pexels.com/sv-se/foto/landskap-landsbygden-sot-gras-247376/ */}
         <div className="hero-text">
           <h1>Klimatvänner</h1>
           <p>Det finns ingen planet B, dags att steppa upp!</p>

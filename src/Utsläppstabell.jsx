@@ -9,10 +9,10 @@ import {
   Title,
   Tooltip,
   Legend,
-} from 'chart.js'; /* Importerar komponenter från Chart.js */
+} from 'chart.js'; /* Importerar moduler från Chart.js */
 import emissionsData from './data/CO2_emissions.json';/* Importerar data från en JSON-fil */
 
-/* Registrerar Chart.js-komponenter som används i diagrammet */
+/* Registrerar Chart.js-moduler som används i diagrammet */
 ChartJS.register(
   CategoryScale,
   LinearScale,

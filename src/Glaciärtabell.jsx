@@ -16,7 +16,7 @@ import {
   Tooltip,
   Legend,
 } from 'chart.js'; 
-/* import {....} from 'chart.js' importerar komponenter som gör det möjligt att bygga upp diagrammet, 
+/* import {....} from 'chart.js' importerar moduler som gör det möjligt att bygga upp diagrammet, 
 till exempel LineElement som ansvarar för att rita linjen*/
 
 

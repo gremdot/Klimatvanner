@@ -8,6 +8,7 @@ const KontaktaOss = () => {
     <header className="hero">
     <div className="overlay"></div>
       <img src="./växande_växt.png" alt="händer som håller en växande planta" className="hero-image"/>
+      {/*Bildkälla, pexels, gratis: https://www.pexels.com/sv-se/foto/1072824/ */}
       <div className="hero-text">
         <h1>Kontakta oss</h1>
         <p>Har du frågor, idéer eller tankar så är du varmt välkommen att höra av dig till oss på Klimatvänner.

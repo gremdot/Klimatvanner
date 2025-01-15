@@ -9,10 +9,10 @@ import {
   Title,
   Tooltip,
   Legend,
-} from 'chart.js';
-import emissionsData from './data/CO2_emissions.json'; // Flyttad hit
+} from 'chart.js'; /* Importerar komponenter från Chart.js */
+import emissionsData from './data/CO2_emissions.json';/* Importerar data från en JSON-fil */
 
-// Registrera komponenter
+/* Registrerar Chart.js-komponenter som används i diagrammet */
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -21,16 +21,16 @@ ChartJS.register(
   Title,
   Tooltip,
   Legend
-);
+); /* Dessa aktiverar nödvändiga komponenter för skalor, linjediagram, titlar, verktygstips */
 
 const Utsläppstabell = () => {
-  // Förbered data för diagrammet
+  /* Skapar data som används för linjediagrammet */
   const data = {
     labels: emissionsData.map((item) => item.Year),
     datasets: [
       {
         label: 'Totala CO2-utsläpp (miljoner ton)',
-        data: emissionsData.map((item) => item.Total),
+        data: emissionsData.map((item) => item.Total), /* Hämtar CO2-utsläppsdata från JSON-filen */
         borderColor: '#046835',
         backgroundColor: 'rgba(4, 104, 53, 0.2)',
         tension: 0.4,
@@ -38,8 +38,9 @@ const Utsläppstabell = () => {
     ],
   };
 
+  /* dessa är inställningar för diagrammet */
   const options = {
-    responsive: true,
+    responsive: true, /* Gör diagrammet responsivt */
     plugins: {
       legend: {
         position: 'top',
@@ -73,4 +74,4 @@ const Utsläppstabell = () => {
   );
 };
 
-export default Utsläppstabell;
+export default Utsläppstabell; /* Exporterar komponenten så att den kan användas i andra filer */

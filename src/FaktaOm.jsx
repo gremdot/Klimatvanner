@@ -12,6 +12,7 @@ const FaktaOm = () => {
       <header className="hero">
         <div className="overlay"></div>
         <img src="./bjork_skog.jpeg" alt="Björk skog" className="hero-image"/>
+        {/*Bildkälla, pexels, gratis: https://www.pexels.com/sv-se/foto/natur-skog-trad-host-18569964/ */}
         <div className="hero-text">
           <h1>Fakta och statistik om klimatförändringar</h1>
           <p>Utforska statistik och lär dig mer om vår planet.</p>

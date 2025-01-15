@@ -1,6 +1,11 @@
 import React from 'react';
-import { Line } from 'react-chartjs-2';
-import glacierData from './data/Glaciers_size.json';
+import { Line } from 'react-chartjs-2'; 
+/*import { Line } from 'react-chart-2'; importerar line-komponenten från javascript 
+biblioteket chart.js som gör det möjligt att utforma datan som ett linjediagram*/
+import glacierData from './data/Glaciers_size.json'; 
+/*import glacierData from './data/Glaciers_size.json'; importerar 
+Glaciers_size.json från mappen data */
+
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -10,7 +15,10 @@ import {
   Title,
   Tooltip,
   Legend,
-} from 'chart.js';
+} from 'chart.js'; 
+/* import {....} from 'chart.js' importerar komponenter som gör det möjligt att bygga upp diagrammet, 
+till exempel LineElement som ansvarar för att rita linjen*/
+
 
 ChartJS.register(
   CategoryScale,
@@ -22,6 +30,9 @@ ChartJS.register(
   Legend
 );
 
+/*Chart.js bygger på två huvudelar, datasets och options som i vårt fall är const data och const 
+options i funktionen Glaciärtabell. I const data finns det som visas då man för muspekaren över 
+linjen med värden och dess etikett, samt bakgrundsfärg */
 const Glaciärtabell = () => {
   const data = {
     labels: glacierData.map((item) => item.Year), // Extraherar året från datan
@@ -36,6 +47,9 @@ const Glaciärtabell = () => {
     ],
   };
 
+  /*I const options finns själva grafen med skalorna y-axel och x-axel samt den
+  beskrivande texten på dem, även att diagrammet är responsivt och anpassar sig efter olika skärmar
+  genom responsive: true */
   const options = {
     responsive: true,
     plugins: {
@@ -51,18 +65,19 @@ const Glaciärtabell = () => {
       x: {
         title: {
           display: true,
-          text: 'År', // Beskrivning för x-axeln
+          text: 'År', 
         },
       },
       y: {
         title: {
           display: true,
-          text: 'Medel ackumulerad massbalans (m)', // Beskrivning för y-axeln
+          text: 'Medel ackumulerad massbalans (m)', 
         },
       },
     },
   };
 
+  /*Return renderar en <h2> rubrik samt linjediagrammet med konstanterna data och options */
   return (
     <div className="glacier">
       <h2>Glaciärstorlek</h2>
@@ -71,4 +86,5 @@ const Glaciärtabell = () => {
   );
 };
 
+/*Exporterar funktionen Glaciärtabell */
 export default Glaciärtabell;

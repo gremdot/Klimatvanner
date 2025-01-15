@@ -9,6 +9,7 @@ const Navbar = () => {
         <li>
           <a href="/">
           <img class="logga" src="./klimatvanner_svart.png" alt="klimatvänner_logo" />
+          {/*Bildkälla: skapad av Naomi Ruokamo, gruppmedlem*/}
           </a>
         </li>
         <li><Link to="/">Startsida</Link></li>

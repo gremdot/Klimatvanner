@@ -6,12 +6,14 @@ const Footer = () => {
 
     <footer>
        <img src="grass.png" alt="illustrerad gräs" className="gräs"/>
+       {/*Bildkälla: skapad av Naomi Ruokamo, gruppmedlem*/}
       <div className="footer"> 
         <section>
         <div className="footer-container">
           <div className="footer-logo">
             <a href="/">
             <img src="./klimatvanner_svart.png" alt="logo"/>
+            {/*Bildkälla: skapad av Naomi Ruokamo, gruppmedlem*/}
             </a>
           </div>
           </div>

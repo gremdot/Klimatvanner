@@ -21,7 +21,7 @@ const Klimatnyheter = () => {
         'Varje år inträffar över 40 000 vegetationsbränder i Sverige. Läs om hur man kan minska riskerna.',
       extendedDescription:
         'Skogsbränder har blivit allt vanligare på grund av klimatförändringar och extremväder. Forskare arbetar med att utveckla bättre metoder för att förebygga och bekämpa bränder.',
-      image: './forest_smoke.jpeg',
+      image: './forest_smoke.jpeg', /* https://www.pexels.com/sv-se/foto/skog-i-brand-51951/ */
       showMore: false,
     },
     {
@@ -63,7 +63,7 @@ const Klimatnyheter = () => {
         'Forskare varnar för att isarna i Arktis smälter dubbelt så snabbt som förutspått. Läs mer om konsekvenserna.',
       extendedDescription:
         'Isarna i Arktis påverkar hela jordens klimat. Smältningen bidrar till stigande havsnivåer och förändrade vädermönster globalt.',
-      image: './isvak.jpg',
+      image: './isvak.jpg',  /* https://www.pexels.com/sv-se/foto/694218/ */
       showMore: false,
     },
     {

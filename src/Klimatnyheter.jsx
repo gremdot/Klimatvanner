@@ -21,7 +21,8 @@ const Klimatnyheter = () => {
         'Varje år inträffar över 40 000 vegetationsbränder i Sverige. Läs om hur man kan minska riskerna.',
       extendedDescription:
         'Skogsbränder har blivit allt vanligare på grund av klimatförändringar och extremväder. Forskare arbetar med att utveckla bättre metoder för att förebygga och bekämpa bränder.',
-      image: './forest_smoke.jpeg', /* https://www.pexels.com/sv-se/foto/skog-i-brand-51951/ */
+      image: './forest_smoke.jpeg', 
+      /*Bildkälla, pexels, gratis: https://www.pexels.com/sv-se/foto/skog-i-brand-51951/ */
       showMore: false,
     },
     {
@@ -34,6 +35,7 @@ const Klimatnyheter = () => {
       extendedDescription:
         'Spaniens regering har mobiliserat räddningstjänst och internationell hjälp. Detta väcker frågor om hur klimatförändringar påverkar kustområden globalt.',
       image: './översvämningar.jpg',
+      /*Bildkälla, pixabay, gratis: https://pixabay.com/sv/photos/barn-cyklar-%C3%B6versv%C3%A4mning-5833719/ */
       showMore: false,
     },
     {
@@ -64,7 +66,8 @@ const Klimatnyheter = () => {
         'Forskare varnar för att isarna i Arktis smälter dubbelt så snabbt som förutspått. Läs mer om konsekvenserna.',
       extendedDescription:
         'Isarna i Arktis påverkar hela jordens klimat. Smältningen bidrar till stigande havsnivåer och förändrade vädermönster globalt.',
-      image: './isvak.jpg',  /* https://www.pexels.com/sv-se/foto/694218/ */
+      image: './isvak.jpg',  
+      /*Bildkälla, pexels, gratis: https://www.pexels.com/sv-se/foto/694218/ */
       showMore: false,
     },
     {
@@ -76,7 +79,8 @@ const Klimatnyheter = () => {
         'Stigande havsnivåer utgör ett allt större hot mot kuststäder världen över. Läs om möjliga lösningar.',
       extendedDescription:
         'Stigande havsnivåer är ett akut problem som kräver internationellt samarbete och innovativa lösningar för att skydda människor och natur.',
-      image: './bil.jpeg', /* https://www.pexels.com/sv-se/foto/stad-vatten-gata-byggnader-26202087/ */
+      image: './bil.jpeg', 
+      /*Bildkälla, pexels, gratis: https://www.pexels.com/sv-se/foto/stad-vatten-gata-byggnader-26202087/ */
       showMore: false,
     },
   ];

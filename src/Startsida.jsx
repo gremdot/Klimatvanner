@@ -26,6 +26,7 @@ const Startsida = () => {
       extendedDescription:
         'Spaniens regering har mobiliserat räddningstjänst och internationell hjälp. Detta väcker frågor om hur klimatförändringar påverkar kustområden globalt.',
       image: './översvämningar.jpg',
+      /*Bildkälla, pixabay, gratis: https://pixabay.com/sv/photos/barn-cyklar-%C3%B6versv%C3%A4mning-5833719/ */
       showMore: false,
     },
   ]);
@@ -44,7 +45,7 @@ const Startsida = () => {
       <header className="hero">
         <div className="overlay"></div>
         <img src="./zebra.png" alt="två zebror i safari" className="hero-image" />
-         {/*Bildkälla från pexels, gratis att använda: https://www.pexels.com/sv-se/foto/landskap-landsbygden-sot-gras-247376/ */}
+         {/*Bildkälla från pexels, gratis: https://www.pexels.com/sv-se/foto/landskap-landsbygden-sot-gras-247376/ */}
         <div className="hero-text">
           <h1>Klimatvänner</h1>
           <p>Det finns ingen planet B, dags att steppa upp!</p>
@@ -65,6 +66,7 @@ const Startsida = () => {
           bidra till en hållbar framtid.
         </p>
         <img src="./klimatvanner.png" alt="Mission logo" />
+        {/*Bildkälla: skapad av Naomi Ruokamo, gruppmedlem*/}
       </section>
 
       {/* Quiz sektion som innehåller titel, paragraf och quizet */}

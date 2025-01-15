@@ -34,6 +34,7 @@ const LärDig = () => {
         </div>
         <div className="topic">
           <img src="./sortering.jpg" alt="Återvinning" />
+          {/*Bildkälla, pixabay, gratis: https://pixabay.com/sv/photos/%C3%A5tervinna-egypten-elefantin%C3%B6-resort-237874/*/}
           <div >
             <h3>Återvinning och pant</h3>
             <p>
@@ -46,6 +47,7 @@ const LärDig = () => {
         </div>
         <div className="topic">
           <img src="./tvättlina.jpg" alt="handla miljövänligt" />
+          {/*Bildkälla, pixabay, gratis: https://pixabay.com/photos/laundry-dry-hang-clothesline-963150/*/}
           <div>
             <h3>Handla miljövänligt</h3>
             <p>
@@ -58,6 +60,7 @@ const LärDig = () => {
         </div>
         <div className="topic">
           <img src="./lax.jpg" alt="matsvinn" />
+          {/*Bildkälla, pixabay, gratis: https://pixabay.com/photos/new-years-eve-salmon-fish-seafood-518032/*/}
           <div>
             <h3>Minska matsvinnet</h3>
             <p>

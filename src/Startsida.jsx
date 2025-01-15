@@ -43,6 +43,7 @@ const Startsida = () => {
       <header className="hero">
         <div className="overlay"></div>
         <img src="./zebra.png" alt="två zebror i safari" className="hero-image" />
+         {/*Bildkälla från pexels, gratis att använda: https://www.pexels.com/sv-se/foto/landskap-landsbygden-sot-gras-247376/ */}
         <div className="hero-text">
           <h1>Klimatvänner</h1>
           <p>Det finns ingen planet B, dags att steppa upp!</p>

@@ -38,7 +38,7 @@ const Utsläppstabell = () => {
     ],
   };
 
-  /* dessa är inställningar för diagrammet */
+  /* i const options dessa är inställningar för diagrammet om hur tabellen ska visas */
   const options = {
     responsive: true, /* Gör diagrammet responsivt */
     plugins: {

@@ -14,6 +14,7 @@ const Startsida = () => {
       extendedDescription:
         'Skogsbränder har blivit allt vanligare på grund av klimatförändringar och extremväder. Forskare arbetar med att utveckla bättre metoder för att förebygga och bekämpa bränder.',
       image: './forest_smoke.jpeg',
+      /*Bildkälla, pexels, gratis: https://www.pexels.com/sv-se/foto/skog-i-brand-51951/ */
       showMore: false,
     },
     {

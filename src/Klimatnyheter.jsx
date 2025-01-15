@@ -46,6 +46,7 @@ const Klimatnyheter = () => {
       extendedDescription:
         'Pandan är en ikon för bevarandearbete. Forskare och organisationer arbetar hårt för att skydda dess livsmiljöer i Kinas bergsområden.',
       image: './panda.webp',
+      /*Bildkälla, pexels, gratis: https://www.pexels.com/sv-se/foto/1123765/ */
       showMore: false,
     },
   ]);

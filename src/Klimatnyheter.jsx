@@ -120,6 +120,7 @@ const Klimatnyheter = () => {
         <div className="overlay"></div>
         <img
           src="./skog.jpeg"
+          /*Bildkälla, pexels, gratis: https://www.pexels.com/sv-se/foto/fagelperspektiv-natur-skog-trad-113338/ */
           alt="Hero"
           className="hero-image"
         />

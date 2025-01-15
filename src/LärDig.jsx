@@ -13,6 +13,7 @@ const LärDig = () => {
     <header className="hero">
     <div className="overlay"></div>
       <img src="./pant.png" alt="ett hav av pant" className="hero-image"/>
+      {/*Bildkälla, pexels, gratis: https://www.pexels.com/sv-se/foto/802221/ */}
       <div className="hero-text">
         <h1>Rädda planeten - <br/> var med och gör skillnad!</h1>
         <p> Vår planet mår dåligt och behöver din hjälp! Det kan kännas hopplöst att läsa om 

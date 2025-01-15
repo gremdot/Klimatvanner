@@ -75,7 +75,7 @@ const Klimatnyheter = () => {
         'Stigande havsnivåer utgör ett allt större hot mot kuststäder världen över. Läs om möjliga lösningar.',
       extendedDescription:
         'Stigande havsnivåer är ett akut problem som kräver internationellt samarbete och innovativa lösningar för att skydda människor och natur.',
-      image: './bil.jpeg',
+      image: './bil.jpeg', /* https://www.pexels.com/sv-se/foto/stad-vatten-gata-byggnader-26202087/ */
       showMore: false,
     },
   ];
